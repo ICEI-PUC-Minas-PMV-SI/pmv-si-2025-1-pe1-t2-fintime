@@ -46,18 +46,20 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 <hr /> 
 
-### 2.1 - Objetivo geral
-O objetivo geral deste estudo é desenvolver um aplicativo acessível que proporcione educação e organização financeiras para indivíduos sem recursos para consultorias especializadas, oferecendo ferramentas para controle financeiro pessoal e planejamento orçamentário mais eficiente. O estudo também visa aprimorar o conhecimento em tecnologias de desenvolvimento web, como JavaScript, HTML e CSS, com o intuito de alcançar proficiência e produtividade ao aplicar soluções consolidadas e essenciais no mercado de trabalho.
+### Objetivo geral
+Objetivo Geral
+Desenvolver um site interativo que auxilie os usuários no controle de seus gastos financeiros, promovendo a educação financeira e a conscientização sobre hábitos de consumo, com o intuito de melhorar a saúde financeira pessoal.
 
-### 2.2 - Objetivo específico
-Para alcançar o objetivo geral, são consideradas as seguintes etapas:
+### Objetivos Específicos
+**Analisar o Comportamento Financeiro dos Usuários:** Realizar uma pesquisa para entender os principais desafios enfrentados pelas pessoas no gerenciamento de suas finanças pessoais.
 
-- **Planejamento do desenvolvimento do aplicativo**: definindo funcionalidades, design, público alvo e demais especificidades técnicas, como arquitetura da solução, APIs utilizadas, etc.
-- **Definição dos requisitos do sistema**: estabelecendo critérios para o funcionamento adequado da plataforma e garantindo compatibilidade com diferentes dispositivos.
-- **Desenvolvimento estático**: criando a interface do usuário e a estrutura visual do aplicativo, assegurando um design intuitivo e acessível.
-- **Desenvolvimento dinâmico**: implementando a lógica de funcionamento e integração com armazenamento local do navegador.
-- **Testes e ajustes**: realizando verificações de desempenho, segurança e usabilidade, aplicando melhorias e correções com base nos resultados.
-- **Implementação**: disponibilizando o aplicativo para o público e monitorando seu desempenho.
+**Criar Ferramentas de Controle Financeiro:** Desenvolver funcionalidades como planilhas de orçamento, categorização de despesas e relatórios mensais que ajudem os usuários a monitorar seus gastos.
+
+**Promover Educação Financeira:** Elaborar conteúdos educativos, como artigos e vídeos, que abordem temas como planejamento financeiro, economia doméstica e investimentos.
+
+**Implementar Recursos Interativos:** Incluir recursos como gráficos e alertas personalizados que incentivem os usuários a manterem-se dentro do orçamento estabelecido.
+
+**Avaliar a Eficácia do Site:** Realizar testes com usuários para avaliar a usabilidade do site e medir o impacto das ferramentas oferecidas na melhoria do controle financeiro dos participantes.
 
 
 ## Justificativa
@@ -97,20 +99,6 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 A aplicação será voltada para usuários com diferentes níveis de familiaridade com finanças e tecnologia, oferecendo soluções que atendem tanto iniciantes quanto avançados. A interface será intuitiva e fácil de usar, garantindo que qualquer usuário possa organizar e gerenciar suas finanças de forma eficiente, independentemente de sua experiência prévia.
 Com recursos acessíveis, a plataforma permitirá que os usuários controlem seus gastos, economizem e invistam com segurança. Seu design simples e funcional visa atender a uma ampla gama de necessidades financeiras, garantindo que todos possam alcançar seus objetivos de forma prática e eficaz.
-
-### Pesquisa de Mercado
-
-#### Área de Atuação
-- **Finanças pessoais**: Auxílio para organização e gestão do dinheiro.
-
-#### Demanda
-- Alta, com crescente interesse em ferramentas para controle de gastos e planejamento financeiro.
-
-#### Concorrência
-- Empresas: GuiaBolso, Organizze, Mint, YNAB.
-
-#### Nicho
-- Finanças pessoais, incluindo orçamento doméstico, planejamento de investimentos e aposentadoria.
 
 #### Perfil Demográfico
 - **Idade**: 18 a 55 anos.
