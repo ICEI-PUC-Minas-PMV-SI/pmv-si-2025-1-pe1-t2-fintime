@@ -1,16 +1,18 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
+Nossos usuários são parte da população econômicamente ativa, com idades entre 18 e 60 anos, em busca de um futuro financeiro melhor.
+Ele visa entregar aos nossos usuários uma maneira democrática, simples e intuitiva de registrar, gerir e poupar suas finanças. 
+Atingindo, dessa forma, o crescimento financeiro.
+O projeto foca em disponibilidade, relatórios precisos e fáceis de compreender, entregando uma interface prática e completa para
+registro de entradas e saídas monetárias. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Ana Oliveira, 32 anos** — Analista de Marketing em São Paulo. Mora sozinha, busca equilibrar gastos e começar a investir. Quer criar uma reserva financeira robusta, comprar um imóvel e garantir uma aposentadoria confortável. Aprende sobre finanças em canais como Me Poupe!, Nath Finanças, e podcasts como DinheiramaCast.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+**José Hamilton, 41 anos** — Professor de História em Belo Horizonte. Renda limitada e dificuldades para poupar. Quer evitar dívidas, formar uma reserva de emergência e garantir a aposentadoria e os estudos do filho. Acompanha finanças em sites como G1 Economia e podcasts como Educando Seu Bolso.
+
+**Mariana Costa, 36 anos** — Médica Clínica Geral em Salvador. Alta carga de plantões e dificuldades em organizar finanças. Quer otimizar seus investimentos, criar um fundo financeiro e alcançar independência na aposentadoria. Aprende sobre finanças no YouTube (José Kobori) e no podcast Investidor Inteligente.
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -19,19 +21,19 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+|EU COMO... `PERSONA`           | QUERO/PRECISO ... `FUNCIONALIDADE`                               | PARA ... `MOTIVO/VALOR`                                    |
+|------------------------------|-----------------------------------------------------------------|------------------------------------------------------------|
+|Usuário do sistema            | Visualizar meu saldo categorizado                               | Entender melhor a distribuição dos meus gastos mensais      |
+|Usuário do sistema            | Filtrar transações por data e categoria                         | Buscar de forma eficiente informações específicas            |
+|Usuário do sistema            | Estabelecer um orçamento mensal por categoria                   | Controlar meus gastos e evitar excessos                     |
+|Usuário do sistema            | Acessar gráficos interativos dos meus gastos                    | Realizar uma análise detalhada do meu comportamento financeiro |
+|Usuário do sistema            | Exportar relatórios financeiros em PDF ou CSV                   | Compartilhar informações com profissionais contábeis ou arquivar para consultas futuras |
+|Usuário do sistema            | Cadastrar transações recorrentes                                | Otimizar o gerenciamento de despesas fixas e previsíveis    |
+|Usuário do sistema            | Que meus dados sejam protegidos por autenticação                | Evitar o acesso não autorizado a informações sensíveis      |
+|Desenvolvedor do sistema      | Realizar testes automatizados em funcionalidades críticas       | Garantir a confiabilidade e estabilidade do sistema         |
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
