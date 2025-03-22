@@ -2,14 +2,6 @@
 
 Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
-
-<hr />
-
 A educação financeira é um tema de extrema relevância na sociedade contemporânea, especialmente diante do alto nível de endividamento da população brasileira e das dificuldades enfrentadas na gestão das finanças pessoais. A falta de conhecimento sobre planejamento financeiro, investimentos e controle de despesas gera estresse, insegurança e incerteza em relação ao futuro econômico dos indivíduos. O problema central, portanto, reside na carência de ferramentas acessíveis e eficazes que auxiliem as pessoas a organizarem suas finanças de forma prática e educativa, promovendo hábitos financeiros mais saudáveis e sustentáveis.
 
 Diante desse contexto, este estudo propõe o desenvolvimento do FinTime, um sistema digital voltado à gestão financeira pessoal. Seu principal objetivo é oferecer aos usuários uma plataforma intuitiva que facilite o controle de entradas e saídas monetárias, além de promover a educação financeira contínua por meio de sugestões personalizadas e conteúdos diários. Para além do desenvolvimento técnico, a pesquisa também analisará os impactos do aplicativo na vida financeira dos indivíduos, buscando avaliar sua eficácia na redução de dívidas e na construção de uma relação mais equilibrada com o dinheiro.
@@ -18,33 +10,18 @@ A escolha deste tema justifica-se pela crescente necessidade de tecnologias que 
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O descontrole financeiro e a falta de conhecimento sobre gestão de recursos impactam significativamente a vida da população brasileira, levando muitos indivíduos a situações de extrema insegurança econômica. A ausência de hábitos estruturados de planejamento financeiro contribui para decisões impulsivas, dificuldades em lidar com despesas recorrentes e a falta de preparo para imprevistos, gerando frustração e desesperança em relação ao futuro.
+No contexto corrente de digitalização dos serviços financeiros, existem diversas soluções no mercado, mas muitas são complexas, voltadas para públicos específicos ou carecem de um foco educativo. Isso cria uma lacuna para aqueles que buscam uma ferramenta acessível e intuitiva para organizar suas finanças e desenvolver hábitos financeiros saudáveis. Compreendendo os desafios enfrentados pelos usuários, conclui-se que é essencial oferecer um suporte eficaz que promova maior autonomia e estabilidade financeira.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
-<hr />
-
-O descontrole financeiro e a falta de conhecimento sobre gestão de recursos impactam significativamente a vida da população brasileira, levando muitos indivíduos a situações de extrema insegurança econômica. A ausência de hábitos estruturados de planejamento financeiro contribui para decisões impulsivas, dificuldades em lidar com despesas recorrentes e a falta de preparo para imprevistos, gerando frustração e desesperança em relação ao futuro.
-No contexto corrente de digitalização dos serviços financeiros, existem diversas soluções no mercado, mas muitas são complexas, voltadas para públicos específicos ou carecem de um foco educativo. Isso cria uma lacuna para aqueles que buscam uma ferramenta acessível e intuitiva para organizar suas finanças e desenvolver hábitos financeiros saudáveis. Compreendendo os desafios enfrentados pelos usuários, conclui-se que é essencial oferecer um suporte eficaz que promova maior autonomia e estabilidade financeira.
-
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
-<hr /> 
 
 ### Objetivo geral
 Objetivo Geral
@@ -61,19 +38,12 @@ Desenvolver um site interativo que auxilie os usuários no controle de seus gast
 
 **Avaliar a Eficácia do Site:** Realizar testes com usuários para avaliar a usabilidade do site e medir o impacto das ferramentas oferecidas na melhoria do controle financeiro dos participantes.
 
+ 
+> **Links Úteis**:
+> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-<hr />
 
 A gestão financeira representa um dos maiores desafios enfrentados pelos brasileiros, com dados que revelam o impacto da falta de planejamento nas finanças pessoais. De acordo com a ANBIMA e o DataFolha, cerca de 50% da população brasileira experimenta níveis elevados de estresse ao lidar com questões financeiras, refletindo a falta de conhecimento e controle sobre as próprias finanças. Além disso, um estudo do SPC Brasil mostrou que, em 2023, aproximadamente 40% dos  brasileiros estão endividados, com a principal causa de inadimplência sendo a falta de planejamento e a dificuldade em lidar com o crédito fácil (SPC Brasil, 2023). Esse cenário destaca a urgência de soluções acessíveis que ajudem os indivíduos a gerenciar melhor suas finanças e alcançar maior segurança financeira.
 
@@ -83,19 +53,13 @@ Esse projeto tem um impacto social significativo, atingindo diferentes faixas so
 
 A escolha desse tema se justifica pela alta relevância social e econômica, visto o grande déficit de educação financeira no Brasil, que é causa de decisões impulsivas ou desinformadas. Além disso, a implementação do aplicativo visa não apenas facilitar o controle financeiro diário, mas também incentivar uma cultura de planejamento financeiro mais consciente e sustentável, com a expectativa de reduzir a inadimplência e contribuir para uma economia mais estável e equilibrada.
 
-## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
 > **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
-<hr />
+
+## Público-Alvo
+
 
 A aplicação será voltada para usuários com diferentes níveis de familiaridade com finanças e tecnologia, oferecendo soluções que atendem tanto iniciantes quanto avançados. A interface será intuitiva e fácil de usar, garantindo que qualquer usuário possa organizar e gerenciar suas finanças de forma eficiente, independentemente de sua experiência prévia.
 Com recursos acessíveis, a plataforma permitirá que os usuários controlem seus gastos, economizem e invistam com segurança. Seu design simples e funcional visa atender a uma ampla gama de necessidades financeiras, garantindo que todos possam alcançar seus objetivos de forma prática e eficaz.
@@ -118,4 +82,11 @@ Com recursos acessíveis, a plataforma permitirá que os usuários controlem seu
 #### Canais de Comunicação
 - **Veículos**: E-mails, infográficos, artigos, vídeos educativos e notificações personalizadas.
 - **Interação**: Criação de comunidades online para troca de experiências e suporte financeiro.
+
+> **Links Úteis**:
+> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
+> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
+> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
 
