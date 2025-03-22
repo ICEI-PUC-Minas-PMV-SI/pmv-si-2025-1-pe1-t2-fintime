@@ -46,35 +46,29 @@ registro de entradas e saídas monetárias.
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
-### Requisitos Funcionais
+### **Requisitos Funcionais**
 
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+| ID      | Descrição do Requisito                                                                 | Prioridade |
+|---------|----------------------------------------------------------------------------------------|------------|
+| RF-001  | Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização. | ALTA       |
+| RF-002  | Geração automática de relatórios financeiros com gráficos circulares segmentados para análise de consumo. | ALTA       |
+| RF-003  | Relatórios devem apresentar gráficos e informações corretas.                            | ALTA       |
+| RF-004  | Quiz para identificar o perfil de investidor do usuário.                                | MÉDIA      |
 
+---
 
-### Requisitos não Funcionais
+### **Requisitos Não Funcionais**
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| ID       | Descrição do Requisito                                                            | Prioridade |
+|----------|-----------------------------------------------------------------------------------|------------|
+| RNF-001  | Não usar o backend, mantendo toda a lógica no frontend.                            | ALTA       |
+| RNF-002  | Não colocar estado relacionado às regras no frontend.                              | ALTA       |
+| RNF-003  | Garantir que a interface seja intuitiva e responsiva a usuários mobile.            | MÉDIA      |
+| RNF-004  | O MVP deve ser o mais sucinto possível.                                            | MÉDIA      |
+| RNF-005  | Criar testes automatizados para as funcionalidades críticas (relatórios, inserções, etc.). | MÉDIA      |
+| RNF-006  | Segurança: Um usuário não pode acessar os dados dos outros em hipótese alguma.     | ALTA       |
+| RNF-007  | Segurança: As senhas têm que ser criptografadas.                                   | ALTA       |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -84,7 +78,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
+|03| O aplicativo deve ser desenvolvido sem auxílio de frameworks frontend       |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
