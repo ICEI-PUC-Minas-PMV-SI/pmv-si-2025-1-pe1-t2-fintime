@@ -6,11 +6,13 @@
 `DISCIPLINA: Projeto - Aplicações Web`
 
 `SEMESTRE: 1º`
-<pre>
+
 O projeto é uma interface gráfica para a gestão da vida financeira do usuário.
+
+
 Tem como objetivo oferecer um meio simples e intuitivo de gerir investimentos, orçamentos e gastos do mês
 aliviando a vida financeira do usuário.
-</pre>
+
 
 ## Integrantes
 
