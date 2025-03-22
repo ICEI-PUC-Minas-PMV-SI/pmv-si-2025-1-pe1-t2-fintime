@@ -1,25 +1,30 @@
-# Título do Projeto
+# FinTime
+![photo](https://github.com/user-attachments/assets/f9755c56-ce71-4802-a34a-af9d931a7cd4)
 
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Projeto - Aplicações Web`
 
 `SEMESTRE: 1º`
-
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+<pre>
+O projeto é uma interface gráfica para a gestão da vida financeira do usuário.
+Tem como objetivo oferecer um meio simples e intuitivo de gerir investimentos, orçamentos e gastos do mês
+aliviando a vida financeira do usuário.
+</pre>
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Rodrigo Elias Pimenta
+* Octávio Augusto de Oliveira Santana Guimarães
+* Monaliza da Silva Vitor
+* Raphael Henrique da Veiga
+* Laura Magalhaes Ferreira
+* Mariana Alves Carneiro
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marco Rodrigo Costa
 
 # Planejamento
 
