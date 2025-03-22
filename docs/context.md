@@ -46,10 +46,10 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 <hr /> 
 
-# 2.1 - Objetivo geral
+### 2.1 - Objetivo geral
 O objetivo geral deste estudo é desenvolver um aplicativo acessível que proporcione educação e organização financeiras para indivíduos sem recursos para consultorias especializadas, oferecendo ferramentas para controle financeiro pessoal e planejamento orçamentário mais eficiente. O estudo também visa aprimorar o conhecimento em tecnologias de desenvolvimento web, como JavaScript, HTML e CSS, com o intuito de alcançar proficiência e produtividade ao aplicar soluções consolidadas e essenciais no mercado de trabalho.
 
-# 2.2 - Objetivo específico
+### 2.2 - Objetivo específico
 Para alcançar o objetivo geral, são consideradas as seguintes etapas:
 
 - **Planejamento do desenvolvimento do aplicativo**: definindo funcionalidades, design, público alvo e demais especificidades técnicas, como arquitetura da solução, APIs utilizadas, etc.
