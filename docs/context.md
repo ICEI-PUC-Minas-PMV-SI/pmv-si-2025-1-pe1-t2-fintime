@@ -92,3 +92,42 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
+<hr />
+
+A aplicação será voltada para usuários com diferentes níveis de familiaridade com finanças e tecnologia, oferecendo soluções que atendem tanto iniciantes quanto avançados. A interface será intuitiva e fácil de usar, garantindo que qualquer usuário possa organizar e gerenciar suas finanças de forma eficiente, independentemente de sua experiência prévia.
+Com recursos acessíveis, a plataforma permitirá que os usuários controlem seus gastos, economizem e invistam com segurança. Seu design simples e funcional visa atender a uma ampla gama de necessidades financeiras, garantindo que todos possam alcançar seus objetivos de forma prática e eficaz.
+
+### Pesquisa de Mercado
+
+#### Área de Atuação
+- **Finanças pessoais**: Auxílio para organização e gestão do dinheiro.
+
+#### Demanda
+- Alta, com crescente interesse em ferramentas para controle de gastos e planejamento financeiro.
+
+#### Concorrência
+- Empresas: GuiaBolso, Organizze, Mint, YNAB.
+
+#### Nicho
+- Finanças pessoais, incluindo orçamento doméstico, planejamento de investimentos e aposentadoria.
+
+#### Perfil Demográfico
+- **Idade**: 18 a 55 anos.
+- **Localização**: Áreas urbanas e suburbanas, com maior incidência nas capitais e grandes centros urbanos.
+- **Situação Familiar**: Solteiros, casados e pais que buscam equilíbrio financeiro.
+
+#### Perfil Comportamental
+- Lida com problemas financeiros de forma reativa, ajustando orçamentos em momentos de dificuldades.
+- Sentimento de ansiedade em relação a dívidas e planejamento para o futuro.
+- Interesse crescente em aumentar patrimônio por meio de investimentos.
+
+#### Perfil Psicográfico
+- Buscam estabilidade financeira para ter mais segurança.
+- Valorizam praticidade e soluções que simplifiquem a gestão financeira.
+- Preocupação com aposentadoria e reserva de emergência, mas com planejamento ainda incipiente.
+
+#### Canais de Comunicação
+- **Veículos**: E-mails, infográficos, artigos, vídeos educativos e notificações personalizadas.
+- **Interação**: Criação de comunidades online para troca de experiências e suporte financeiro.
+
