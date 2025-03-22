@@ -1,6 +1,6 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+**[1]** - Confederação Nacional de Dirigentes Lojistas (CNDL); Serviço de Proteção ao Crédito (SPC Brasil). Inadimplência cresce mais um mês e atinge 68,62 milhões de consumidores em novembro, aponta CNDL/SPC Brasil. Brasília, DF: CNDL, 16 dez. 2024. Disponível em: https://site.cndl.org.br/inadimplencia-cresce-mais-um-mes-e-atinge-6862-milhoes-de-consumidores-em-novembro-aponta-cndlspc-brasil/. Acesso em: 22 mar. 2025.
 
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/referencias/)
