@@ -14,11 +14,6 @@ A escolha deste tema justifica-se pela crescente necessidade de tecnologias que 
 O descontrole financeiro e a falta de conhecimento sobre gestão de recursos impactam significativamente a vida da população brasileira, levando muitos indivíduos a situações de extrema insegurança econômica. A ausência de hábitos estruturados de planejamento financeiro contribui para decisões impulsivas, dificuldades em lidar com despesas recorrentes e a falta de preparo para imprevistos, gerando frustração e desesperança em relação ao futuro.
 No contexto corrente de digitalização dos serviços financeiros, existem diversas soluções no mercado, mas muitas são complexas, voltadas para públicos específicos ou carecem de um foco educativo. Isso cria uma lacuna para aqueles que buscam uma ferramenta acessível e intuitiva para organizar suas finanças e desenvolver hábitos financeiros saudáveis. Compreendendo os desafios enfrentados pelos usuários, conclui-se que é essencial oferecer um suporte eficaz que promova maior autonomia e estabilidade financeira.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 
 ## Objetivos
 
@@ -39,9 +34,6 @@ Desenvolver um site interativo que auxilie os usuários no controle de seus gast
 **Avaliar a Eficácia do Site:** Realizar testes com usuários para avaliar a usabilidade do site e medir o impacto das ferramentas oferecidas na melhoria do controle financeiro dos participantes.
 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 
 ## Justificativa
 
@@ -52,10 +44,6 @@ O aplicativo proposto visa atender a essa demanda, oferecendo ferramentas simple
 Esse projeto tem um impacto social significativo, atingindo diferentes faixas socioeconômicas, desde a classe A até a classe C, contribuindo para a democratização do conhecimento financeiro. A inclusão de um maior número de pessoas no universo da educação financeira pode ajudar a reduzir o endividamento, aumentar a poupança e criar uma mentalidade financeira equilibrada. Com o tempo, essa mudança de comportamento pode ser transmitida para as gerações seguintes, gerando um efeito positivo no longo prazo para a sociedade como um todo.
 
 A escolha desse tema se justifica pela alta relevância social e econômica, visto o grande déficit de educação financeira no Brasil, que é causa de decisões impulsivas ou desinformadas. Além disso, a implementação do aplicativo visa não apenas facilitar o controle financeiro diário, mas também incentivar uma cultura de planejamento financeiro mais consciente e sustentável, com a expectativa de reduzir a inadimplência e contribuir para uma economia mais estável e equilibrada.
-
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 
 ## Público-Alvo
@@ -82,11 +70,4 @@ Com recursos acessíveis, a plataforma permitirá que os usuários controlem seu
 #### Canais de Comunicação
 - **Veículos**: E-mails, infográficos, artigos, vídeos educativos e notificações personalizadas.
 - **Interação**: Criação de comunidades online para troca de experiências e suporte financeiro.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
-
 
