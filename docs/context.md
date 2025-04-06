@@ -37,7 +37,7 @@ O sistema proposto visa solucionar tais desafios, proporcionando uma ferramenta 
 O público alvo desse projeto será composto por usuários com diferentes níveis de familiaridade com finanças e tecnologia: 
 
  -  Podem ou não ter experiência prévia com finanças;
- -  Tendem a serem jovens mas podem apresentar idade levemente mais avançada (18 a 55 anos);
+ -  Tendem a serem jovens mas podem apresentar idade levemente mais avançada (18 a 60 anos);
  -  É um público geralmente mais concentrado em áreas urbanas;
  -  Podem ter mais responsabilidades financeiras, casa, carro, filhos...;
  -  Estão focados em um futuro financeiro mais estável, para isso, podem apresentar interesse em iniciar investimentos;
