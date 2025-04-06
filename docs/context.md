@@ -24,7 +24,7 @@ Desenvolver um site interativo que auxilie os usuários no controle de seus gast
 
 **Promover Educação Financeira:** Elaborar conteúdos educativos, como artigos e vídeos, que abordem temas como planejamento financeiro, economia doméstica e investimentos.
 
-**Implementar Recursos Interativos:** Incluir recursos como gráficos e alertas personalizados que incentivem os usuários a manterem-se dentro do orçamento estabelecido.
+**Implementar Recursos Interativos:** Incluir recursos como gráficos que incentivem os usuários a manterem-se dentro do orçamento estabelecido.
 
 ## Justificativa
 
