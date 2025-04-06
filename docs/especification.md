@@ -34,10 +34,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID      | Descrição do Requisito                                                                 | Prioridade |
 |---------|----------------------------------------------------------------------------------------|------------|
-| RF-001  | Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização. | ALTA       |
-| RF-002  | Geração automática de relatórios financeiros com gráficos circulares segmentados para análise de consumo. | ALTA       |
-| RF-003  | Relatórios devem apresentar gráficos e informações corretas.                            | ALTA       |
-| RF-004  | Quiz para identificar o perfil de investidor do usuário.                                | MÉDIA      |
+| RF-001 | Funcionalidade de cadastro, login, e gerenciamento de usuários. | ALTA | 
+| RF-002 | Geração automática de relatórios financeiros com gráficos circulares segmentados para análise de consumo. | ALTA | 
+| RF-003 | Exportação de dados financeiros como CSV. | ALTA | 
+| RF-004 | Relatórios devem apresentar gráficos e informações corretas. | ALTA |
+| RF-005 | Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização. | ALTA | 
+| RF-006 | Os relatórios mensais devem conter gastos totais, gastos por categoria e portifólio de investimento. | ALTA | 
+| RF-007 | Fucionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário. | ALTA | 
+| RF-008 | Registro de gastos futuros previsíveis recorrentes ou não recorrentes para orçamentos. | ALTA | 
+| RF-009 | Quiz para identificar o perfil de investidor do usuário. | MÉDIA |
+| RF-010 | Página de artigos sobre educação financeira. | MÉDIA |
+
+
+
+
+
+
 
 ---
 
