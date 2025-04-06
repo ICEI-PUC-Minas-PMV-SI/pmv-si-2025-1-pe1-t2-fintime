@@ -27,8 +27,6 @@ A falta de planejamento financeiro é um dos principais desafios enfrentados pel
 
 Diante desse cenário, torna-se urgente oferecer soluções acessíveis que auxiliem no controle financeiro e na educação sobre o uso consciente dos recursos. O sistema proposto busca suprir essa necessidade, oferecendo uma ferramenta prática para registro de entradas e saídas, além de conteúdos educativos e dicas de investimento. O objetivo é promover autonomia, controle financeiro e uma mudança de comportamento sustentável no longo prazo.
 
-O sistema proposto visa solucionar tais desafios, proporcionando uma ferramenta simples e eficaz para o controle de entradas e saídas monetárias e dicas de investimentos, possibilitando aos usuários o acompanhamento detalhado de seus gastos. Essa integração de gestão financeira com aprendizado contínuo visa não apenas ajudar os usuários no controle diário de suas finanças, mas também promover uma mudança de comportamento a longo prazo, incentivando decisões mais assertivas e conscientes.
-
 ## Público-Alvo
 
 O público alvo desse projeto será composto por usuários com diferentes níveis de familiaridade com finanças e tecnologia: 
