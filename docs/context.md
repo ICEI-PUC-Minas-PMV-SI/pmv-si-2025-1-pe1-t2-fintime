@@ -2,7 +2,7 @@
 
 A educação financeira é um tema de extrema relevância na sociedade contemporânea, especialmente diante do alto nível de endividamento da população brasileira e das dificuldades enfrentadas na gestão das finanças pessoais. A falta de conhecimento sobre planejamento financeiro, investimentos e controle de despesas gera estresse, insegurança e incerteza em relação ao futuro econômico dos indivíduos. O problema central, portanto, reside na carência de ferramentas acessíveis e eficazes que auxiliem as pessoas a organizarem suas finanças de forma prática e educativa, promovendo hábitos financeiros mais saudáveis e sustentáveis.
 
-De acordo com uma pesquisa recente do Datafolha, cerca de 67% dos brasileiros possuem dificuldade em poupar dinheiro, acarretando em desafios posteriores para as finanças pessoais, ademais, de acordo com a Onze, Fintech de Saúde Financeira e Previdência Privada do Brasil, 59% do corpo social não possui embasamento adequado pala lidar com seus rendimentos.
+De acordo com uma pesquisa recente do Datafolha, cerca de 67% dos brasileiros possuem dificuldade em poupar dinheiro, acarretando em desafios posteriores para as finanças pessoais, além disso, de acordo com a Onze, Fintech de Saúde Financeira e Previdência Privada do Brasil, 59% do corpo social não possui embasamento adequado para lidar com seus rendimentos.
 
 ## Problema
 
