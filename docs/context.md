@@ -19,17 +19,12 @@ Objetivo Geral
 Desenvolver um site interativo que auxilie os usuários no controle de seus gastos financeiros, promovendo a educação financeira e a conscientização sobre hábitos de consumo, com o intuito de melhorar a saúde financeira pessoal.
 
 ### Objetivos Específicos
-**Analisar o Comportamento Financeiro dos Usuários:** Realizar uma pesquisa para entender os principais desafios enfrentados pelas pessoas no gerenciamento de suas finanças pessoais.
 
 **Criar Ferramentas de Controle Financeiro:** Desenvolver funcionalidades como planilhas de orçamento, categorização de despesas e relatórios mensais que ajudem os usuários a monitorar seus gastos.
 
 **Promover Educação Financeira:** Elaborar conteúdos educativos, como artigos e vídeos, que abordem temas como planejamento financeiro, economia doméstica e investimentos.
 
 **Implementar Recursos Interativos:** Incluir recursos como gráficos e alertas personalizados que incentivem os usuários a manterem-se dentro do orçamento estabelecido.
-
-**Avaliar a Eficácia do Site:** Realizar testes com usuários para avaliar a usabilidade do site e medir o impacto das ferramentas oferecidas na melhoria do controle financeiro dos participantes.
-
- 
 
 ## Justificativa
 
