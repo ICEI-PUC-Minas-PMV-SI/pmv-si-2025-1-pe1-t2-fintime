@@ -43,12 +43,6 @@ registro de entradas e saídas monetárias.
 | RF-009 | Quiz para identificar o perfil de investidor do usuário. | MÉDIA |
 | RF-010 | Página de artigos sobre educação financeira. | MÉDIA |
 
-
-
-
-
-
-
 ---
 
 ### **Requisitos Não Funcionais**
@@ -73,5 +67,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| O aplicativo deve ser desenvolvido sem auxílio de frameworks frontend       |
-
-
