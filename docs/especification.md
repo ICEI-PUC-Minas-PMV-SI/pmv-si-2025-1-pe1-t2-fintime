@@ -25,7 +25,6 @@ registro de entradas e saídas monetárias.
 |Usuário do sistema            | Exportar relatórios financeiros em PDF ou CSV                   | Compartilhar informações com profissionais contábeis ou arquivar para consultas futuras |
 |Usuário do sistema            | Cadastrar transações recorrentes                                | Otimizar o gerenciamento de despesas fixas e previsíveis    |
 |Usuário do sistema            | Que meus dados sejam protegidos por autenticação                | Evitar o acesso não autorizado a informações sensíveis      |
-|Desenvolvedor do sistema      | Realizar testes automatizados em funcionalidades críticas       | Garantir a confiabilidade e estabilidade do sistema         |
 
 ## Requisitos
 
