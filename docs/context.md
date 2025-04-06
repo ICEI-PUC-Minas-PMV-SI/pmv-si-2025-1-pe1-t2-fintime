@@ -1,12 +1,8 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
 A educação financeira é um tema de extrema relevância na sociedade contemporânea, especialmente diante do alto nível de endividamento da população brasileira e das dificuldades enfrentadas na gestão das finanças pessoais. A falta de conhecimento sobre planejamento financeiro, investimentos e controle de despesas gera estresse, insegurança e incerteza em relação ao futuro econômico dos indivíduos. O problema central, portanto, reside na carência de ferramentas acessíveis e eficazes que auxiliem as pessoas a organizarem suas finanças de forma prática e educativa, promovendo hábitos financeiros mais saudáveis e sustentáveis.
 
-Diante desse contexto, este estudo propõe o desenvolvimento do FinTime, um sistema digital voltado à gestão financeira pessoal. Seu principal objetivo é oferecer aos usuários uma plataforma intuitiva que facilite o controle de entradas e saídas monetárias, além de promover a educação financeira contínua por meio de sugestões personalizadas e conteúdos diários. Para além do desenvolvimento técnico, a pesquisa também analisará os impactos do aplicativo na vida financeira dos indivíduos, buscando avaliar sua eficácia na redução de dívidas e na construção de uma relação mais equilibrada com o dinheiro.
-
-A escolha deste tema justifica-se pela crescente necessidade de tecnologias que auxiliem na organização financeira pessoal, acompanhando a transformação digital que já impacta diversos setores. Ao proporcionar uma solução acessível e eficiente, pretende-se não apenas desenvolver um aplicativo inovador, mas também fomentar a democratização da educação financeira, contribuindo para a autonomia dos usuários no gerenciamento de suas finanças. Além disso, este estudo abre caminho para futuras investigações sobre a expansão da solução digital e seus impactos no comportamento financeiro da população.
+De acordo com uma pesquisa recente do Datafolha, cerca de 67% dos brasileiros possuem dificuldade em poupar dinheiro, acarretando em desafios posteriores para as finanças pessoais, ademais, de acordo com a Onze, Fintech de Saúde Financeira e Previdência Privada do Brasil, 59% do corpo social não possui embasamento adequado pala lidar com seus rendimentos.
 
 ## Problema
 
