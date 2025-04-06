@@ -18,13 +18,13 @@ registro de entradas e saídas monetárias.
 
 |EU COMO... `PERSONA`           | QUERO/PRECISO ... `FUNCIONALIDADE`                               | PARA ... `MOTIVO/VALOR`                                    |
 |------------------------------|-----------------------------------------------------------------|------------------------------------------------------------|
-|Usuário do sistema            | Visualizar meu saldo categorizado                               | Entender melhor a distribuição dos meus gastos mensais      |
-|Usuário do sistema            | Filtrar transações por data e categoria                         | Buscar de forma eficiente informações específicas            |
-|Usuário do sistema            | Estabelecer um orçamento mensal por categoria                   | Controlar meus gastos e evitar excessos                     |
-|Usuário do sistema            | Acessar gráficos interativos dos meus gastos                    | Realizar uma análise detalhada do meu comportamento financeiro |
-|Usuário do sistema            | Exportar relatórios financeiros em PDF ou CSV                   | Compartilhar informações com profissionais contábeis ou arquivar para consultas futuras |
-|Usuário do sistema            | Cadastrar transações recorrentes                                | Otimizar o gerenciamento de despesas fixas e previsíveis    |
-|Usuário do sistema            | Que meus dados sejam protegidos por autenticação                | Evitar o acesso não autorizado a informações sensíveis      |
+|Ana Oliveira            | Visualizar meu saldo categorizado                               | Entender melhor a distribuição dos meus gastos mensais      |
+|Ana Oliveira           | Filtrar transações por data e categoria                         | Buscar de forma eficiente informações específicas            |
+|José Hamilton           | Estabelecer um orçamento mensal por categoria                   | Controlar meus gastos e evitar excessos                     |
+|José Hamilton           | Acessar gráficos interativos dos meus gastos                    | Realizar uma análise detalhada do meu comportamento financeiro |
+|Mariana Costa           | Exportar relatórios financeiros em PDF ou CSV                   | Compartilhar informações com profissionais contábeis ou arquivar para consultas futuras |
+|Mariana Costa          | Cadastrar transações recorrentes                                | Otimizar o gerenciamento de despesas fixas e previsíveis    |
+|Mariana Costa           | Que meus dados sejam protegidos por autenticação                | Evitar o acesso não autorizado a informações sensíveis      |
 
 ## Requisitos
 
