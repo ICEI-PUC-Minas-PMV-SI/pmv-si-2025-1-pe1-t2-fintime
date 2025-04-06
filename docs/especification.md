@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-Nossos usuários são parte da população econômicamente ativa, com idades entre 18 e 60 anos, em busca de um futuro financeiro melhor.
+Nossos usuários são parte da população economicamente ativa, com idades entre 18 e 60 anos, em busca de um futuro financeiro melhor.
 Ele visa entregar aos nossos usuários uma maneira democrática, simples e intuitiva de registrar, gerir e poupar suas finanças. 
 Atingindo, dessa forma, o crescimento financeiro.
 O projeto foca em disponibilidade, relatórios precisos e fáceis de compreender, entregando uma interface prática e completa para
@@ -28,8 +28,6 @@ registro de entradas e saídas monetárias.
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
 ### **Requisitos Funcionais**
 
 | ID      | Descrição do Requisito                                                                 | Prioridade |
@@ -40,7 +38,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-004 | Relatórios devem apresentar gráficos e informações corretas. | ALTA |
 | RF-005 | Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização. | ALTA | 
 | RF-006 | Os relatórios mensais devem conter gastos totais, gastos por categoria e portifólio de investimento. | ALTA | 
-| RF-007 | Fucionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário. | ALTA | 
+| RF-007 | Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário. | ALTA | 
 | RF-008 | Registro de gastos futuros previsíveis recorrentes ou não recorrentes para orçamentos. | ALTA | 
 | RF-009 | Quiz para identificar o perfil de investidor do usuário. | MÉDIA |
 | RF-010 | Página de artigos sobre educação financeira. | MÉDIA |
