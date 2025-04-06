@@ -76,5 +76,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| O aplicativo deve ser desenvolvido sem auxílio de frameworks frontend       |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
