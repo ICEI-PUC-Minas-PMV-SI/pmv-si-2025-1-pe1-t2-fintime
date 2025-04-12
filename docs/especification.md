@@ -32,15 +32,15 @@ registro de entradas e saídas monetárias.
 
 | ID      | Descrição do Requisito                                                                 | Prioridade |
 |---------|----------------------------------------------------------------------------------------|------------|
-| RF-001 | Funcionalidade de cadastro, login, e gerenciamento de usuários. | ALTA | 
-| RF-002 | Geração automática de relatórios financeiros com gráficos circulares segmentados para análise de consumo. | ALTA | 
+| RF-001 | Funcionalidade de cadastro e login. | ALTA | 
+| RF-002 | Gráficos circulares segmentados para análise de gasto. | ALTA | 
 | RF-003 | Exportação de dados financeiros como CSV. | ALTA | 
 | RF-004 | Relatórios devem apresentar gráficos e informações corretas. | ALTA |
 | RF-005 | Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização. | ALTA | 
 | RF-006 | Os relatórios mensais devem conter gastos totais, gastos por categoria e portifólio de investimento. | ALTA | 
 | RF-007 | Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário. | ALTA | 
-| RF-008 | Registro de gastos futuros previsíveis recorrentes ou não recorrentes para orçamentos. | ALTA | 
-| RF-009 | Atribuir selos com base nos dados do usuário. | MÉDIA |
+| RF-008 | Registro de gastos futuros recorrentes ou não recorrentes para orçamentos. | ALTA | 
+| RF-009 | Atribuir selos como recompensa com base nos dados do usuário. | MÉDIA |
 | RF-010 | Página de artigos sobre educação financeira. | MÉDIA |
 
 ---
