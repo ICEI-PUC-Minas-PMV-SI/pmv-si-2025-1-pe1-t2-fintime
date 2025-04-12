@@ -40,7 +40,7 @@ registro de entradas e saídas monetárias.
 | RF-006 | Os relatórios mensais devem conter gastos totais, gastos por categoria e portifólio de investimento. | ALTA | 
 | RF-007 | Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário. | ALTA | 
 | RF-008 | Registro de gastos futuros previsíveis recorrentes ou não recorrentes para orçamentos. | ALTA | 
-| RF-009 | Quiz para identificar o perfil de investidor do usuário. | MÉDIA |
+| RF-009 | Atribuir selos com base nos dados do usuário. | MÉDIA |
 | RF-010 | Página de artigos sobre educação financeira. | MÉDIA |
 
 ---
