@@ -41,7 +41,6 @@ registro de entradas e saídas monetárias.
 | RF-007 | Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário. | ALTA | 
 | RF-008 | Registro de gastos futuros recorrentes ou não recorrentes para orçamentos. | ALTA | 
 | RF-009 | Atribuir selos como recompensa com base nos dados do usuário. | MÉDIA |
-| RF-010 | Página de artigos sobre educação financeira. | MÉDIA |
 
 ---
 
