@@ -24,6 +24,7 @@ A escolha dessa paleta foi inspirada em soluções consolidadas do mercado finan
 
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
+A tipografia escolhida para o projeto prioriza a clareza, legibilidade e modernidade, alinhadas à proposta de um ambiente financeiro seguro e acessível. As fontes foram selecionadas para estabelecer uma hierarquia visual bem definida, facilitando a navegação e a leitura em diferentes dispositivos.
 
 ## Iconografia
 
