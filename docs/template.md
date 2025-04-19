@@ -17,6 +17,7 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 A identidade visual do projeto utiliza, como base, a combinação de azul ciano e branco. Essas cores foram cuidadosamente escolhidas por transmitirem sensações de segurança, confiança e tranquilidade, aspectos essenciais para aplicações voltadas ao controle financeiro pessoal.
 
 A escolha dessa paleta foi inspirada em soluções consolidadas do mercado financeiro, como VISA e American Express, marcas que também adotam tons de azul para reforçar a ideia de solidez, credibilidade e estabilidade emocional. O azul, além de ser associado à responsabilidade e organização, ajuda a criar uma experiência visual leve e profissional, enquanto o branco proporciona clareza, limpeza e foco nos conteúdos.
+</br>
 ![Cores utilizadas](img/fintime_cp_sm.jpg)
 
 ## Tipografia
