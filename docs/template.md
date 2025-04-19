@@ -24,6 +24,16 @@ A escolha dessa paleta foi inspirada em soluções consolidadas do mercado finan
 
 A tipografia utilizada no projeto é a Roboto, escolhida por ser uma fonte moderna e altamente legível em ambientes digitais. Sua versatilidade e boa leitura em diferentes tamanhos de tela tornam-na ideal para aplicações de gestão financeira, onde clareza e organização são essenciais.
 
+### Funções e Aplicações
+
+| Função                    | Tamanho | Peso    | Uso                                                             |
+|:--------------------------|:--------|:---------|:----------------------------------------------------------------|
+| **Título de Página**        | 19px    | Bold     | Exibir o nome da página ou seção principal de forma destacada.   |
+| **Título de Seção**         | 14px    | Bold     | Identificar áreas ou categorias dentro das páginas.              |
+| **Rótulos de Componentes**  | 12px    | Medium   | Exibir nomes de botões, campos, menus e legendas de gráficos.    |
+| **Corpo de Texto**          | 10px    | Regular  | Utilizado para informações descritivas, explicações e conteúdos. |
+
+
 ## Iconografia
 
 Defina os ícones que serão utilizados e suas respectivas funções.
