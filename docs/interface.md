@@ -13,48 +13,52 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Nesta etapa, foi feita a construção das telas que o sistema irá trabalhar, tratando todas as questões dos requisitos informado.
 
-### RF-001
+
 ![Cadastro](img/Cadastro.png)  
+**Relacionados:** RF-001  
+**Descrição:** Funcionalidade de cadastro e login.
+
+
 ![Login](img/Login.png)  
-Funcionalidade de cadastro e login.
+**Relacionados:** RF-001  
+**Descrição:** Funcionalidade de cadastro e login.
 
-### RF-002
+
 ![Home](img/Home.png)  
-Gráficos circulares segmentados para análise de gasto.
+**Relacionados:** RF-002  
+**Descrição:** Gráficos circulares segmentados para análise de gasto.
 
-### RF-003
-![GitHub](img/Transações.png)  
-Exportação de dados financeiros como CSV.
 
-### RF-004
 ![Transações](img/Transações.png)  
-Relatórios devem apresentar gráficos e informações corretas.
+**Relacionados:** RF-003, RF-004, RF-006  
+**Descrição (RF-003):** Exportação de dados financeiros como CSV.  
+**Descrição (RF-004):** Relatórios devem apresentar gráficos e informações corretas.  
+**Descrição (RF-006):** Os relatórios mensais devem conter gastos totais, gastos por categoria e portifólio de investimento.
 
-### RF-005
+
 ![Lista de transações](img/Lista_de_transações.png)  
-Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização.
+**Relacionados:** RF-005  
+**Descrição:** Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização.
 
-### RF-006
-![Transações](img/Transações.png)  
-Os relatórios mensais devem conter gastos totais, gastos por categoria e portifólio de investimento.
 
-### RF-007
 ![Adicionar transações](img/Adicionar_transações.png)  
+**Relacionados:** RF-007, RF-008  
+**Descrição (RF-007):** Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário.  
+**Descrição (RF-008):** Registro de gastos futuros recorrentes ou não recorrentes para orçamentos.
+
+
 ![Editar cartão](img/Editar_cartão.png)  
+**Relacionados:** RF-007  
+**Descrição:** Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário.
+
+
 ![Criar cartão](img/Criar_cartão.png)  
-Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário.
+**Relacionados:** RF-007  
+**Descrição:** Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário.
 
-### RF-008
-![Adicionar transações](img/Adicionar_transações.png)  
-Registro de gastos futuros recorrentes ou não recorrentes para orçamentos.
 
-### RF-009
 ![Perfil](img/Perfil.png)  
-Atribuir selos como recompensa com base nos dados do usuário.
- 
+**Relacionados:** RF-009  
+**Descrição:** Atribuir selos como recompensa com base nos dados do usuário.
 
 
-
-### Exemplo
-
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
