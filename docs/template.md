@@ -2,7 +2,13 @@
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+O background é azul escuro #4361ff
+
+O design consiste em um card branco, usado como principal componente sobre o fundo azul das telas
+
+A sidebar, que contém os botões que mapeia para as telas, tem a função de uma barra de navegação e fica da cor do background, sempre está presente em todas as telas.
+
+A logo fica na parte superior esquerda da sidebar, portanto, também está presente em todas as telas
 
 
 
@@ -30,16 +36,4 @@ A tipografia utilizada no projeto é a Roboto, escolhida por ser uma fonte moder
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+![Iconografia](img/Ícones.png)
