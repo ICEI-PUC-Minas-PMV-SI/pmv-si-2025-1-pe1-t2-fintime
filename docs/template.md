@@ -22,9 +22,12 @@ A escolha dessa paleta foi inspirada em soluções consolidadas do mercado finan
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+A tipografia utilizada no projeto é a Roboto, escolhida por ser uma fonte moderna, clean e altamente legível em ambientes digitais. Sua versatilidade e boa leitura em diferentes tamanhos de tela tornam-na ideal para aplicações de gestão financeira, onde clareza e organização são essenciais.
 
-A tipografia escolhida para o projeto prioriza a clareza, legibilidade e modernidade, alinhadas à proposta de um ambiente financeiro seguro e acessível. As fontes foram selecionadas para estabelecer uma hierarquia visual bem definida, facilitando a navegação e a leitura em diferentes dispositivos.
+### Fonte Utilizada
+Fonte principal: Roboto, sans-serif
+
+**Por quê?** Possui traços simples e geométricos, garantindo boa leitura e aspecto contemporâneo, sem abrir mão da sobriedade necessária para um ambiente financeiro.
 
 ## Iconografia
 
