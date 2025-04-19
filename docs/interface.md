@@ -57,7 +57,7 @@ Nesta etapa, foi feita a construção das telas que o sistema irá trabalhar, tr
 
 
 ![Perfil](img/Perfil.png)  
-**Relacionados:** RF-009  
+**Relacionados:** RF-008
 **Descrição:** Atribuir selos como recompensa com base nos dados do usuário.
 
 
