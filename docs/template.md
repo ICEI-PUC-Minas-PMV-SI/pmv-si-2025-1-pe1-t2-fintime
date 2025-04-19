@@ -22,12 +22,10 @@ A escolha dessa paleta foi inspirada em soluções consolidadas do mercado finan
 
 ## Tipografia
 
-A tipografia utilizada no projeto é a Roboto, escolhida por ser uma fonte moderna, clean e altamente legível em ambientes digitais. Sua versatilidade e boa leitura em diferentes tamanhos de tela tornam-na ideal para aplicações de gestão financeira, onde clareza e organização são essenciais.
+A tipografia utilizada no projeto é a Roboto, escolhida por ser uma fonte moderna e altamente legível em ambientes digitais. Sua versatilidade e boa leitura em diferentes tamanhos de tela tornam-na ideal para aplicações de gestão financeira, onde clareza e organização são essenciais.
 
 ### Fonte Utilizada
-Roboto, sans-serif
-
-**Por quê?** Possui traços simples e geométricos, garantindo boa leitura e aspecto contemporâneo, sem abrir mão da sobriedade necessária para um ambiente financeiro.
+A fonte Roboto combina linhas simples e formas geométricas com um toque de neutralidade, proporcionando um visual contemporâneo e profissional, sem perder a sobriedade e a confiabilidade exigidas por aplicações financeiras. Essa tipografia garante hierarquia visual clara e boa performance tipográfica tanto em títulos quanto em textos de apoio e elementos interativos.
 
 ## Iconografia
 
