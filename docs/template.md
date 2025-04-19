@@ -13,7 +13,10 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 </br>
-Utiliza-se primariamente a combinação de azul ciano e branco, cores escolhidas devido ao fato de que provocam sensação de segurança e tranquilidade no usuário. Escolha essa baseou-se na paleta de cores de soluções como VISA e American Express.  
+
+A identidade visual do projeto utiliza, como base, a combinação de azul ciano e branco. Essas cores foram cuidadosamente escolhidas por transmitirem sensações de segurança, confiança e tranquilidade, aspectos essenciais para aplicações voltadas ao controle financeiro pessoal.
+
+A escolha dessa paleta foi inspirada em soluções consolidadas do mercado financeiro, como VISA e American Express, marcas que também adotam tons de azul para reforçar a ideia de solidez, credibilidade e estabilidade emocional. O azul, além de ser associado à responsabilidade e organização, ajuda a criar uma experiência visual leve e profissional, enquanto o branco proporciona clareza, limpeza e foco nos conteúdos.
 ![Cores utilizadas](img/fintime_cp.jpg)
 
 ## Tipografia
