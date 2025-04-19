@@ -7,13 +7,45 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow-fintime.png)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+![Userflow fintime](img/userflow-fintime.png)
 
 ## Wireframes
 
 Nesta etapa, foi feita a construção das telas que o sistema irá trabalhar, tratando todas as questões dos requisitos informado.
+
+### RF-001
+![Cadastro](img/Cadastro.png)  
+![Login](img/Login.png)  
+
+
+### RF-002
+![Home](img/Home.png)  
+
+### RF-003
+![GitHub](img/Transações.png)  
+
+### RF-004
+![Transações](img/Transações.png)
+
+### RF-005
+![Lista de transações](img/Lista_de_transações.png)  
+
+### RF-006
+![Transações](img/Transações.png)  
+
+### RF-007
+![Adicionar transações](img/Adicionar_transações.png)  
+![Editar cartão](img/Editar_cartão.png)  
+![Criar cartão](img/Criar_cartão.png)  
+
+### RF-008
+![Adicionar transações](img/Adicionar_transações.png)  
+
+
+### RF-009
+![Perfil](img/Perfil.png)  
+
+
 
 ### Exemplo
 
