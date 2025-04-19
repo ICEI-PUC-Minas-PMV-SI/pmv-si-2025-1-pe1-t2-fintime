@@ -30,15 +30,15 @@ Nesta etapa, foi feita a construção das telas que o sistema irá trabalhar, tr
 
 
 ![Transações](img/Transações.png)  
-**Relacionados:** RF-003, RF-004, RF-006  
-**Descrição (RF-003):** Exportação de dados financeiros como CSV.  
+**Relacionados:** RF-003, RF-004, RF-006 
 **Descrição (RF-004):** Relatórios devem apresentar gráficos e informações corretas.  
 **Descrição (RF-006):** Os relatórios mensais devem conter gastos totais, gastos por categoria e portifólio de investimento.
 
 
 ![Lista de transações](img/Lista_de_transações.png)  
-**Relacionados:** RF-005  
-**Descrição:** Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização.
+**Relacionados:**  RF-003, RF-005
+**Descrição (RF-003):** Exportação de dados financeiros como CSV.  
+**Descrição:(RF-005)** Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização.
 
 
 ![Adicionar transações](img/Adicionar_transações.png)  
