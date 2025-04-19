@@ -30,7 +30,7 @@ Nesta etapa, foi feita a construção das telas que o sistema irá trabalhar, tr
 
 
 ![Transações](img/Transações.png)  
-**Relacionados:** RF-003, RF-004, RF-006 
+**Relacionados:** RF-004, RF-006 
 **Descrição (RF-004):** Relatórios devem apresentar gráficos e informações corretas.  
 **Descrição (RF-006):** Os relatórios mensais devem conter gastos totais, gastos por categoria e portifólio de investimento.
 
@@ -48,9 +48,8 @@ Nesta etapa, foi feita a construção das telas que o sistema irá trabalhar, tr
 
 
 ![Editar cartão](img/Editar_cartão.png)  
-**Relacionados:** RF-007  
-**Descrição:** Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário.
-
+**Relacionados:** RF-007
+**Descrição (RF-007):** Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário.
 
 ![Criar cartão](img/Criar_cartão.png)  
 **Relacionados:** RF-007  
