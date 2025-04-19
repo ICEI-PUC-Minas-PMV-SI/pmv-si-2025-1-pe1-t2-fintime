@@ -39,8 +39,7 @@ registro de entradas e saídas monetárias.
 | RF-005 | Funcionalidade de ordenação e filtragem de dados por categoria para otimização da visualização. | ALTA | 
 | RF-006 | Os relatórios mensais devem conter gastos totais e gastos por categoria. | ALTA | 
 | RF-007 | Funcionalidade de inserção, remoção e edição de entradas e saídas financeiras do usuário. | ALTA | 
-| RF-008 | Registro de gastos futuros recorrentes ou não recorrentes para orçamentos. | ALTA | 
-| RF-009 | Atribuir selos como recompensa com base nos dados do usuário. | MÉDIA |
+| RF-008 | Atribuir selos como recompensa com base nos dados do usuário. | MÉDIA |
 
 ---
 
