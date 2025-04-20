@@ -6,7 +6,7 @@ O background é azul escuro #4361ff
 
 O design consiste em um card branco, usado como principal componente sobre o fundo azul das telas
 
-A sidebar, que contém os botões que mapeia para as telas, tem a função de uma barra de navegação e fica da cor do background, sempre está presente em todas as telas.
+A sidebar, que contém os botões que mapeia para as telas, tem a função de uma barra de navegação e fica da cor do background quando o usuário entra em alguma, sempre está presente em todas as telas.
 
 A logo fica na parte superior esquerda da sidebar, portanto, também está presente em todas as telas
 
