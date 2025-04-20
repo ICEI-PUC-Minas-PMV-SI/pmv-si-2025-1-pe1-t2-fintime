@@ -2,14 +2,13 @@
 
 ## Design
 
-O background é azul escuro #4361ff
-
-O design consiste em um card branco, usado como principal componente sobre o fundo azul das telas
-
-A sidebar, que contém os botões que mapeia para as telas, tem a função de uma barra de navegação e fica da cor do background quando o usuário entra em alguma, sempre está presente em todas as telas.
-
-A logo fica na parte superior esquerda da sidebar, portanto, também está presente em todas as telas
-
+- **Background:** Azul escuro `#4361FF`
+- **Card Branco:** Principal elemento de destaque sobre o fundo azul
+- **Sidebar:**
+  - Cor igual ao background (`#4361FF`)
+  - Contém os botões de navegação entre as telas
+  - Sempre visível em todas as telas
+  - **Logo:** Localizada no canto superior esquerdo da sidebar, presente em todas as páginas
 
 
 ## Cores
@@ -35,5 +34,8 @@ A tipografia utilizada no projeto é a Roboto, escolhida por ser uma fonte moder
 
 
 ## Iconografia
+Os ícones escolhidos para o aplicativo foram pensados para transmitir uma sensação de diversão e leveza, reforçando a ideia de gamificar a experiência do usuário. Com traços modernos, formas arredondadas e visual amigável, os ícones ajudam a criar um ambiente mais descontraído, tornando o controle financeiro algo mais acessível e interessante.
+
+A proposta é que, ao interagir com os ícones, o usuário sinta que está avançando em desafios, desbloqueando conquistas e organizando suas finanças de forma prática e divertida — como em um jogo. Essa abordagem transforma tarefas que, muitas vezes, parecem complexas ou cansativas, em experiências agradáveis e motivadoras, incentivando o uso contínuo do app.
 
 ![Iconografia](img/Ícones.png)
