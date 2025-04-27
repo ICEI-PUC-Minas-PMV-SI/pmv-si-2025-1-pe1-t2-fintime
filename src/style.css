@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background: #4361ff;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #f4f4f4;
+  width: 220px;
+  height: 100vh;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #4361ff;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.menu button:hover {
+  background-color: #e0e0e0;
+}
+
+.menu .active {
+  color: #4361ff;
+  font-weight: bold;
+}
+/* Dashboard */
+.dashboard {
+  background: #4361ff;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 100vh;
+}
+
+.coluna-esquerda {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Cards */
+.cards,
+.fatura {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 15px;
+}
+
+.fatura {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 15px;
+}
+
+.cards h2,
+.fatura h2,
+.grafico h2 {
+  margin: 0;
+  font-size: 19px;
+  color: #333;
+}
+
+.grafico {
+  height: 100%;
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-item img {
+  width: 40px;
+  height: auto;
+}
+
+.add-card {
+  border: 2px dashed #407bff;
+  background: none;
+  color: #407bff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Fatura */
+.fatura-info p {
+  margin: 4px 0;
+}
+
+.fatura-info .atraso {
+  color: red;
+  font-size: 19px;
+}
+
+.fatura-info .status {
+  font-size: 19px;
+}
+
+/* Gráfico */
+canvas {
+  width: 100% !important;
+  height: 250px !important;
+}
