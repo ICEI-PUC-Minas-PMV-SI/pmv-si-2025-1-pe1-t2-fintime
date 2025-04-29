@@ -71,6 +71,7 @@ body {
 
 .coluna-esquerda {
   display: flex;
+  width: 65%;
   flex-direction: column;
   gap: 10px;
 }
@@ -108,7 +109,6 @@ body {
 }
 
 .grafico {
-  height: 100%;
   background: white;
   border-radius: 16px;
   padding: 20px;
@@ -140,6 +140,28 @@ body {
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s, color 0.3s;
+}
+.remove-card {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff4c4c;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.card-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-item p {
+  margin: 0;
+  flex: 1;
+  text-align: center;
 }
 
 /* Fatura */
