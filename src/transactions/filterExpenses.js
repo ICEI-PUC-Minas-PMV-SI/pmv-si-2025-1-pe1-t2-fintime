@@ -1,4 +1,5 @@
 const expenses = [];
+let currentHighlight = null;
 
 function loadData() {
     fetch('expenses.json') 
@@ -45,3 +46,52 @@ function formatCurrency(amount) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
+function searchExpenses() {
+    const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+    if (!searchTerm) return;
+
+    const tableRows = document.querySelectorAll('#historicoTable tbody tr');
+    let foundRow = null;
+
+    if (currentHighlight) {
+        currentHighlight.classList.remove('highlight');
+        currentHighlight = null;
+    }
+
+    for (const row of tableRows) {
+        const rowText = row.textContent.toLowerCase();
+        if (rowText.includes(searchTerm)) {
+            foundRow = row;
+            break;
+        }
+    }
+
+    if (foundRow) {
+        foundRow.classList.add('highlight');
+        currentHighlight = foundRow;
+
+        foundRow.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        });
+
+        setTimeout(() => {
+            foundRow.classList.remove('highlight');
+            currentHighlight = null;
+        }, 3000);
+    } else {
+        alert('No matching expenses found');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    loadData();
+    document.getElementById('searchButton').addEventListener('click', searchExpenses);
+    
+    document.getElementById('searchInput').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            searchExpenses();
+        }
+    });
+});
