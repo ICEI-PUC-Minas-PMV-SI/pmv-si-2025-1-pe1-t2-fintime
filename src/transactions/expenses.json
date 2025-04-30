@@ -1,0 +1,81 @@
+[
+    {
+        "date": "2025-04-30",
+        "description": "jogo",
+        "category": "ônus",
+        "value": -95.00
+    },
+    {
+        "date": "2025-04-28",
+        "description": "medicamentos",
+        "category": "ônus",
+        "value": -85.50
+    },
+    {
+        "date": "2025-04-27",
+        "description": "suplementes",
+        "category": "autores",
+        "value": -95.30
+    },
+    {
+        "date": "2025-04-26",
+        "description": "depósitos",
+        "category": "inventos",
+        "value": -95.45
+    },
+    {
+        "date": "2025-04-25",
+        "description": "livro",
+        "category": "ônus",
+        "value": -95.30
+    }
+    ,
+    {
+        "date": "2025-04-25",
+        "description": "medicamentos",
+        "category": "ônus",
+        "value": -85.50
+    },
+    {
+        "date": "2025-04-25",
+        "description": "suplementes",
+        "category": "autores",
+        "value": -95.30
+    },
+    {
+        "date": "2025-04-20",
+        "description": "depósitos",
+        "category": "inventos",
+        "value": -95.45
+    },
+    {
+        "date": "2025-04-08",
+        "description": "livro",
+        "category": "ônus",
+        "value": -95.30
+    },
+    {
+        "date": "2025-04-06",
+        "description": "medicamentos",
+        "category": "ônus",
+        "value": -85.50
+    },
+    {
+        "date": "2025-04-05",
+        "description": "suplementes",
+        "category": "autores",
+        "value": -95.30
+    },
+    {
+        "date": "2025-04-05",
+        "description": "depósitos",
+        "category": "inventos",
+        "value": -95.45
+    },
+    {
+        "date": "2025-04-01",
+        "description": "livro",
+        "category": "ônus",
+        "value": -95.30
+    }
+]

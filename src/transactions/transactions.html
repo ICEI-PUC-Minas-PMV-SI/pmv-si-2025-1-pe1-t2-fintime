@@ -8,6 +8,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="graph.js"></script>
   <script src="doughnut.js"></script>
+  <script src="filterExpenses.js"></script>
+
 </head>
 <body>
     
@@ -53,122 +55,28 @@
   
         </div>
 
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Pesquise por categoria ou descrição" oninput="filterExpenses()" />
+        </div>
+
+        <div id="expenses"></div>
+
         <section class="card historico">
             <h3>Histórico de Gastos</h3>
-            <table>
+            <table id="historicoTable">
                 <thead>
                     <tr>
                         <th>Data</th>
                         <th>Descrição</th>
-                        <th>Categoria</th>
+                        <th>categoria</th>
                         <th>Valor</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>-</td>
-                        <td>jogo</td>
-                        <td>ônus</td>
-                        <td class="negativo">-R$95,00</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>medicamentos</td>
-                        <td>ônus</td>
-                        <td class="negativo">-R$85,50</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>jogo</td>
-                        <td>ônus</td>
-                        <td class="negativo">-R$45,10</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>suplementes</td>
-                        <td>autores</td>
-                        <td class="negativo">-R$95,30</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>medicamentos</td>
-                        <td>médicos</td>
-                        <td class="positivo">R$93,00</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>depósitos</td>
-                        <td>inventos</td>
-                        <td class="negativo">-R$95,45</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>livro</td>
-                        <td>ônus</td>
-                        <td class="negativo">-R$95,30</td>
-                    </tr>
                 </tbody>
             </table>
         </section>
-
-        <section class="card historico">
-            <h3>HISTÓRICO DE MOVIMENTAÇÕES</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>data</th>
-                        <th>descrição</th>
-                        <th>categoria</th>
-                        <th>montante</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>-</td>
-                        <td>pagamento médica</td>
-                        <td>ônus</td>
-                        <td class="negativo">-R$95,00</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>loja de animais</td>
-                        <td>ônus</td>
-                        <td class="negativo">-R$85,50</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>compra jogo</td>
-                        <td>ônus</td>
-                        <td class="negativo">-R$45,10</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>suplementos</td>
-                        <td>autores</td>
-                        <td class="negativo">-R$95,30</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>medicamentos</td>
-                        <td>médicos</td>
-                        <td class="positivo">R$93,00</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>depósitos</td>
-                        <td>inventos</td>
-                        <td class="negativo">-R$95,45</td>
-                    </tr>
-                    <tr>
-                        <td>-</td>
-                        <td>livro</td>
-                        <td>ônus</td>
-                        <td class="negativo">-R$95,30</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
+        
         <div class="ver-tudo">
             <button>Acessar listagem completa</button>
         </div>
