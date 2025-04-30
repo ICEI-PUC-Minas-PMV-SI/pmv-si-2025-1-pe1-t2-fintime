@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinTime</title>
+  <link rel="stylesheet" href="style_fl.css">
+  <script src="filterExpenses.js"></script>
+  <script src="full_list.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90" />
+      <div class="menu">
+        <button>🏠 Início</button>
+        <button>👤 Perfil</button>
+        <button class="menu-toggle" onclick="toggleSubmenu()">💰 Transações</button>
+        <div id="submenu" class="submenu hidden">
+            <button class="active">📋 Listagem</button>
+            <button>➕ Nova transação</button>
+        </div>
+        <button>➕ Novo cartão</button>
+        <button>✏️ Editar cartão</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <h1>Listagem Completa de Gastos</h1>
+      <div class="export-container">
+        <button id="exportButton" class="export-button">
+            <span class="export-icon">📊</span> Exportar CSV
+          </button>
+      </div>
+
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquise por categoria ou descrição" />
+        <button id="searchButton">Pesquisar</button>
+      </div>
+
+      <div class="table-container">
+        <table id="fullHistoryTable">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Descrição</th>
+              <th>Categoria</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <button class="back-button" onclick="window.history.back()">Voltar</button>
+    </main>
+  </div>
+</body>
+</html>

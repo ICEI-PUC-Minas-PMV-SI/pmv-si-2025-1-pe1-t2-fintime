@@ -88,10 +88,20 @@ function searchExpenses() {
 document.addEventListener('DOMContentLoaded', () => {
     loadData();
     document.getElementById('searchButton').addEventListener('click', searchExpenses);
-    
     document.getElementById('searchInput').addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
             searchExpenses();
         }
     });
+    setupViewAllButton();
 });
+
+function setupViewAllButton() {
+    const viewAllBtn = document.querySelector('.ver-tudo button');
+    if (viewAllBtn) {
+        viewAllBtn.addEventListener('click', () => {
+            localStorage.setItem('allExpenses', JSON.stringify(expenses));
+            window.location.href = 'full_list.html';
+        });
+    }
+}
