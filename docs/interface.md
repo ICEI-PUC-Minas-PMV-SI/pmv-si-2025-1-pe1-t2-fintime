@@ -5,7 +5,7 @@ A plataforma foi desenvolvida com foco na facilidade de navegação, visualizaç
 
 ## User Flow
 
-![Userflow fintime](img/userflow-fintime.png)
+![userflow](img/userflow.png)
 
 ## Wireframes
 
