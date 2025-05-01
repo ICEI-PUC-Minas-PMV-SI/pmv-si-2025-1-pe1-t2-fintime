@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinTime</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="graph.js"></script>
+  <script src="doughnut.js"></script>
+  <script src="filterExpenses.js"></script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90">
+            <div class="menu">
+                <button>🏠 Início</button>
+                <button>👤 Perfil</button>
+                <button class="menu-toggle" onclick="toggleSubmenu()">💰 Transações</button>
+                    <div id="submenu" class="submenu hidden">
+                        <button>📋 Listagem</button>
+                        <button>➕ Nova transação</button>
+                    </div>
+                <button class="active">💰 Transações</button>
+                <button>➕ Novo cartão</button>
+                <button>✏️ Editar cartão</button>
+              </div>
+            </div>
+        </aside>  
+
+    <main class="dashboard">
+        <section class="saldo">
+            <h2>SALDO</h2>
+            <p class="valor-saldo">R$2.500,00</p>
+        </section>
+
+        <div class="grid-container">
+
+            <section class="card total-gasto">
+                <h3>Total</h3>
+                <div class="chart-container">
+                  <canvas id="gastoChart"></canvas>
+                </div>
+            </section>
+
+            <section class="card category-chart">
+                <h3>Categorias</h3>
+                <div class="chart-container">
+                  <canvas id="categoryChart"></canvas>
+                </div>
+              </section>                     
+  
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Pesquise por categoria ou descrição" oninput="filterExpenses()" />
+            <button id="searchButton">Pesquisar</button>
+        </div>
+
+        <div id="expenses"></div>
+
+        <section class="card historico">
+            <h3>Histórico de Gastos</h3>
+            <table id="historicoTable">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Descrição</th>
+                        <th>Categoria</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+        
+        <div class="ver-tudo">
+            <button>Acessar listagem completa</button>
+        </div>
+    </main>      
+  </div>
+
+</body>
+</html>

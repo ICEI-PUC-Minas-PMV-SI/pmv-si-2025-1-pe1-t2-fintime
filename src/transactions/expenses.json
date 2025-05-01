@@ -1,0 +1,81 @@
+[
+    {
+        "date": "2025-04-30",
+        "description": "jogo de videogame",
+        "category": "Entretenimento",
+        "value": -295.00
+    },
+    {
+        "date": "2025-04-28",
+        "description": "medicamentos",
+        "category": "Saúde",
+        "value": -85.50
+    },
+    {
+        "date": "2025-04-27",
+        "description": "suplementos",
+        "category": "Saúde",
+        "value": -95.30
+    },
+    {
+        "date": "2025-04-26",
+        "description": "depósitos",
+        "category": "Investimentos",
+        "value": 125.50
+    },
+    {
+        "date": "2025-04-25",
+        "description": "livro",
+        "category": "Entretenimento",
+        "value": -65.35
+    }
+    ,
+    {
+        "date": "2025-04-25",
+        "description": "medicamentos",
+        "category": "Saúde",
+        "value": -85.50
+    },
+    {
+        "date": "2025-04-25",
+        "description": "suplementos",
+        "category": "Saúde",
+        "value": -95.30
+    },
+    {
+        "date": "2025-04-20",
+        "description": "depósitos",
+        "category": "Investimentos",
+        "value": 205.00
+    },
+    {
+        "date": "2025-04-08",
+        "description": "livro",
+        "category": "Entretenimento",
+        "value": -95.30
+    },
+    {
+        "date": "2025-04-06",
+        "description": "livro",
+        "category": "Entretenimento",
+        "value": -85.50
+    },
+    {
+        "date": "2025-04-05",
+        "description": "livro",
+        "category": "Entretenimento",
+        "value": -43.50
+    },
+    {
+        "date": "2025-04-05",
+        "description": "depósitos",
+        "category": "Investimentos",
+        "value": 495.45
+    },
+    {
+        "date": "2025-04-01",
+        "description": "jogo de videogame",
+        "category": "Entretenimento",
+        "value": -95.30
+    }
+]
