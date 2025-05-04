@@ -38,11 +38,10 @@ document.querySelector(".add-card").addEventListener("click", function () {
   const newCard = document.createElement("div");
   newCard.classList.add("card-item");
   newCard.innerHTML = `
-      <img src="../img/visa.png" alt="novo-cartao" class="bandeira">
-      <input type="number" placeholder="R$ 0,00" />
-      <button class="remove-card">🗑️</button>
-    `;
-
+    <img src="../docs/img/visa.png" alt="novo-cartao" class="bandeira">
+    <input type="number" placeholder="R$ 0,00" />
+    <button class="remove-card">🗑️</button>
+  `;
   cardList.insertBefore(newCard, this); // Adiciona antes do botão "Adicionar"
 
   // Dá função ao novo botão de remover
