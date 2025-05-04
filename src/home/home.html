@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FinTime Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div>
+      <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90">
+      <div class="menu">
+        <a href="./home.html" class="active">🏠 Início</a>
+        <a>👤 Perfil</a>
+        <a>💰 Transações</a>
+        <a href="../cartoes.html">💳 Cartão</a>
+        <a>➕ Novo cartão</a>
+        <a>✏️ Editar cartão</a>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="summary">
+        <div>
+          <div>Saldo</div>
+          <div>R$5.000,00</div>
+        </div>
+        <div>
+          <div>Despesa</div>
+          <div>R$2.500,00</div>
+        </div>
+        <div>
+          <div>Receita</div>
+          <div>R$7.500,00</div>
+        </div>
+      </div>
+      <div>
+        <select class="period" name="period" id="cars">
+          <option value="30D">Período(30D)</option>
+          <option value="60D">Período(60D)</option>
+          <option value="90D">Período(90D)</option>
+        </select>
+        <span style="margin-left: 20px;">Ana Oliveira 🧑‍🎤</span>
+      </div>
+    </header>
+    
+    <section class="charts">
+      <div class="chart-container">
+        <h3>Gastos / Investidos</h3>
+        <canvas id="chart-main"></canvas>
+      </div>
+      <div class="column">
+        <div class="chart-container">
+          <h4>Top 5 gastos do mês</h4>
+          <canvas id="chart-gastos"></canvas>
+        </div>
+        <div class="chart-container">
+          <h4>Top 5 investimentos do mês</h4>
+          <canvas id="chart-investimentos"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./home.js"></script>
+</body>
+</html>
