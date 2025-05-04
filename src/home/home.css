@@ -25,6 +25,28 @@ header {
   background-color: #f4f4f4;
   border-bottom: 1px solid #ddd;
 }
+
+header {
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.options-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
 .summary {
   display: flex;
   gap: 60px;
