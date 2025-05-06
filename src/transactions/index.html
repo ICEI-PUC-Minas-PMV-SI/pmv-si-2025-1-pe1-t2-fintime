@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Transação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+            <img class="logo" src="img/fintime-logo.png" alt="FinTime Logo" width="110" height="90">
+            <div class="menu">
+              <button>🏠 Início</button>
+              <button>👤 Perfil</button>
+              <button>💰 Transações</button>
+                  <div id="submenu" class="submenu hidden">
+                      <button>📋 Listagem</button>
+                      <button class="active">➕ Nova transação</button>
+                  </div>
+              <button>➕ Novo cartão</button>
+              <button>✏️ Editar cartão</button>
+            </div>
+          </div>
+      </aside>  
+
+        <div class="modal">
+            <h2>Nova transação</h2>
+          
+            <div class="select_moeda">
+              <input type="radio" name="moeda" id="moeda-real" class="moeda-radio" checked>
+              <label for="moeda-real" class="moeda-label">R$</label>
+            
+              <input type="radio" name="moeda" id="moeda-dolar" class="moeda-radio">
+              <label for="moeda-dolar" class="moeda-label">$</label>
+            </div>
+          
+            <label for="descricao">Descrição</label>
+            <input type="texto" id="descricao" placeholder="ex.: Transporte, ração, etc.">
+          
+            <label for="categoria">Categoria</label>
+            <select id="categoria">
+              <option>Alimentação</option>
+              <option>Transporte</option>
+              <option>Saúde</option>
+              <option>Entretenimento</option>
+              <option>Pets</option>
+              <option>Viagem</option>
+            </select>
+          
+            <div class="tipo">
+              <input type="radio" name="tipo" id="desp" hidden checked>
+              <label for="desp" class="tipo-btn red">Desp.</label>
+            
+              <input type="radio" name="tipo" id="inv" hidden>
+              <label for="inv" class="tipo-btn green">Invest.</label>
+            </div>
+            
+            <label for="forma-pagamento">Forma de Pagamento</label>
+            <select id="forma-pagamento">
+              <option>Cartão de Crédito</option>
+              <option>Cartão de Débito</option>
+              <option>Dinheiro</option>
+              <option>Transferência</option>
+              <option>Pix</option>
+            </select>
+          
+            <div class="input-duplo">
+              <div>
+                <label>Data</label>
+                <input type="text" placeholder="00/00/00">
+              </div>
+              <div>
+                <label>Valor</label>
+                <input type="text" placeholder="R$00,00">
+              </div>
+            </div>
+          
+            <div class="botoes">
+              <button class="voltar">Voltar</button>
+              <button class="adicionar">Adicionar</button>
+            </div>
+        
+
+    
+</body>
+</html>
