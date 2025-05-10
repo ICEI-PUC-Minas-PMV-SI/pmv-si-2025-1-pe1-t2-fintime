@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinTime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!--Seções para exibição de selos e foto de perfil-->
+        <section class="seleft">
+            <!--Seção de Coleção-->
+            <section class="colecao">
+                <h2>Coleção de Selos</h2>
+                <section class="selos">
+                    <div class="fpart">
+                        <img src="midia/petloverc.png" alt="">
+                        <img src="midia/poupadorc.png" alt="">
+                        <img src="midia/medc.png" alt="">
+                        <img src="midia/selfcarec.png" alt="">
+                        <img src="midia/fitness.png" alt="">
+                    </div>
+                    <div class="lpart">
+                        <img src="midia/investidorb.png" alt="">
+                        <img src="midia/gamerc.png" alt="">
+                        <img src="midia/cultc.png" alt="">
+                        <img src="midia/estudiosoc.png" alt="">
+                        <img src="midia/generosoc.png" alt="">
+                    </div>
+                </section>
+            </section>
+            <section class="perfil"> <!--Foto de Perfil-->
+                <img src="midia/editar.png" alt="" id="editar">
+                <img src="midia/user.png" alt="" id="user">
+                <figcaption>Usuário</figcaption>
+            </section>
+        </section>
+        <!--Seção para dados pessoais-->
+        <section>
+            <!--Ao longo do código, é possível observar diferentes blocos. Criei eles para facilitar o posicionamento nas CSS.-->
+            <form>
+                <!--Bloco destinado a nome, idade e número de celular.-->
+                <div class="bloco1">
+                    <div class="nome">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="idade">
+                        <label for="idade">Idade</label>
+                        <input type="number" id="idade" name="idade">
+                    </div>
+                    <div class="tel">
+                        <label for="telefone">Número de Celular</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                </div>
+                <!--Bloco destinado ao e-mail e à biografia.-->
+                <div class="bloco2">
+                    <div class="email">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="biografia">
+                        <label for="bio">Biografia</label>
+                        <textarea name="bio" id="bio"></textarea>
+                    </div>
+                </div>
+                 <!--Bloco destinado à senha e ao conversor de mooedas.Acabei adicionando o botão de salvar aqui também-->
+                <div class="bloco3">
+                    <div class="localpSenha">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha">
+                        <img src="midia/close.png" alt="" id="alternar">
+                        <button id="salvar">Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <script src="scripts.js"></script>
+    </main>
+</body>
+</html>
