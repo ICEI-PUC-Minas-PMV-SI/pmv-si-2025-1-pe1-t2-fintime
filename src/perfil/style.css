@@ -45,6 +45,8 @@ body{
     cursor: pointer;
     text-align: left;
     width: 100%;
+    text-decoration: none;
+    color: #333;
 }
 
 .menu a:hover {
