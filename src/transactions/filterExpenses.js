@@ -2,20 +2,23 @@ const expenses = [];
 let currentHighlight = null;
 
 function loadData() {
+    const transactionLimit = 5; 
     fetch('expenses.json') 
         .then(response => response.json())
         .then(data => {
             expenses.push(...data);  
-            renderExpenses(expenses);  
+            renderExpenses(expenses, transactionLimit);  
         })
         .catch(error => console.error('Error loading data:', error));
 }
 
-function renderExpenses(expenses) {
+function renderExpenses(expenses, limit = null) {
     const tableBody = document.querySelector('#historicoTable tbody');
     tableBody.innerHTML = ''; 
 
-    expenses.forEach(expense => {
+    const shownExpenses = limit ? expenses.slice(0, limit) : expenses;
+
+    shownExpenses.forEach(expense => {
         const row = document.createElement('tr');
 
         const dataCell = document.createElement('td');

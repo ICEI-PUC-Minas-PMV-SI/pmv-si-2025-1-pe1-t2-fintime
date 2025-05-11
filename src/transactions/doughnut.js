@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const categoryData = {
       labels: ['Academia', 'Transporte', 'Pet', 'Educação', 'Lazer', 'Alimentação'],
-      percentages: [23, 36, 8, 8, 11, 14],
+      percentages: [14, 8, 8, 30, 11, 29],
       colors: [
         '#4361ff',
         '#4cc9f0',
