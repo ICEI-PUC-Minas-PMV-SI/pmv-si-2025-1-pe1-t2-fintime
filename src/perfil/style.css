@@ -13,26 +13,55 @@ body{
 #logo{
     width: 110px;
     height: 90px;
+    font-size: 2rem;
+    color: #4361ff;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-left: 5vh;
 }
 
 .sidebar{
-    background-color: #faf9f6;
+    background-color: #f4f4f4;
+    width: 220px;
     height: 100vh;
-    width: 150px;
-    position: fixed;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;      
 }
 
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    padding-top: 3rem;
-    padding-left: 0.5rem;
+    width: 100%;
 }
 
+.menu a {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.menu a:hover {
+  background-color: #e0e0e0;
+}
+
+.menu .active {
+  color: #4361ff;
+  font-weight: bold;
+}
 
 main{
     background-color: #4361ff;
+    position: relative;
+    left: 220px;
+    bottom: 100vh;
+    height: 100vh;
 }
 
 .seleft{  /* Classe criada para auxiliar apenas no posicionamento da coleção dos selos e da foto de perfil */
@@ -49,16 +78,16 @@ h2{
 }
 
 .colecao{     /*Bloque que engloba todos os elementos da coleção de selos.*/
-    background-color: #faf9f6;
+    background-color: #f4f4f4;
     text-align: center;
     vertical-align: middle;
     font-size: 1.5vh;
     color:#4361ff;
-    width: 133vh;
+    width: 120vh;
     height: 33vh;
     position: relative;
-    top: 5.9rem;
-    margin-left: 26vh;
+    top: 5vh;
+    margin-left: 5vh;
     border-radius: 3vh;
 }
 
@@ -70,7 +99,7 @@ h2{
     justify-content: center;
     gap: 1rem;
     padding: 2rem;
-    width:115vh;
+    width:100vh;
     height:25vh;
     margin-left: 9vh;
     margin-bottom: 10vh;
@@ -88,13 +117,13 @@ h2{
 }
 
 .perfil{  /*Bloco branco que contém o local para foto do usuário*/
-    background-color: #faf9f6;
+    background-color: #f4f4f4;
     width: 33vh;
     height: 33vh;
     padding: 2vh;
     position: relative;
-    left: 170vh;
-    bottom: 20vh;
+    left: 130vh;
+    bottom: 28vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -121,14 +150,14 @@ figcaption{
 }
 
 form{
-    background-color:  #faf9f6;
+    background-color:  #f4f4f4;
     color:#4361ff;
-    width: 178.5vh;
+    width: 159vh;
     height: 55vh;
     padding: 10vh;
     position: relative;
-    left: 26vh;
-    bottom: 15vh;
+    left: 5vh;
+    bottom: 25vh;
     border-radius: 3vh;
     display: flex;
     flex-direction: column;
@@ -224,7 +253,7 @@ textarea{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 8vh;
+    left: 2.5vh;
     bottom: 18vh;
     padding-top: 15px;
 }
@@ -242,7 +271,7 @@ textarea{
     height: 5vh;
     border: none;
     background-color: #4361ff;
-    color: aliceblue;
+    color: #f4f4f4;
     font-size: medium;
     border-radius: 1vh;
 }
