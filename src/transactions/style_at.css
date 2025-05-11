@@ -1,0 +1,159 @@
+/* Main Structure */
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    background-color: #f8f9fa;
+    color: #000;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #f4f4f4;
+    width: 220px;
+    height: 100vh;
+    padding: 20px 10px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .logo {
+    margin-bottom: 30px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .menu button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  .menu button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .menu .active {
+    color: #4361ff;
+    font-weight: bold;
+    background-color: #e0e8ff;
+  }
+  
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  /* Main Content Area */
+  .content {
+    position: relative;
+    margin-left: 220px;
+    padding: 30px;
+    width: calc(100vw - 220px);
+    background-color: white;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  /* Page Header */
+  .content h1 {
+    color: #4361ff;
+    margin-top: 0;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  
+  .transaction-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+  
+  .transaction-form label {
+    font-weight: 500;
+  }
+  
+  .transaction-form input,
+  .transaction-form select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .transaction-form input:focus,
+  .transaction-form select:focus {
+    outline: none;
+    border-color: #4361ff;
+    box-shadow: 0 2px 12px rgba(67, 97, 255, 0.15);
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .radio-group input {
+    margin-right: 5px;
+  }
+  
+  .transaction-form button {
+    padding: 12px;
+    background-color: #4361ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(67, 97, 255, 0.2);
+  }
+  
+  .transaction-form button:hover {
+    background-color: #3a56e0;
+    transform: translateY(-1px);
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .content {
+      padding: 20px;
+    }
+  
+    .transaction-form {
+      width: 100%;
+    }
+  }  
