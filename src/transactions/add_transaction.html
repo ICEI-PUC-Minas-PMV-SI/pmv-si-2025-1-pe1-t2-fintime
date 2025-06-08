@@ -1,64 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nova Transação - FinTime</title>
-  <link rel="stylesheet" href="style_at.css" />
-</head>
-<body>
-  <div class="container">
-    <aside class="sidebar">
-      <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90" />
-      <div class="menu">
-        <a href="../home/home.html" class = menu-link>🏠 Início</a>
-        <a href="../perfil/index.html" class = menu-link>👤 Perfil</a>
-        <button class="menu-toggle" onclick="toggleSubmenu()">💰 Transações</button>
-        <div id="submenu" class="submenu hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Transação - FinTime</title>
+    <link rel="stylesheet" href="style_at.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <img
+          class="logo"
+          src="../../docs/img/fintime-logo.png"
+          alt="FinTime Logo"
+          width="110"
+          height="90"
+        />
+        <div class="menu">
+          <a href="../home/home.html" class="menu-link">🏠 Início</a>
+          <a href="../perfil/index.html" class="menu-link">👤 Perfil</a>
+          <button class="menu-toggle" onclick="toggleSubmenu()">
+            💰 Transações
+          </button>
+          <div id="submenu" class="submenu hidden">
             <a href="full_list.html" class="menu-link">📋 Listagem</a>
-            <a href="add_transaction.html" class="menu-link active">➕ Nova transação</a>
+            <a href="add_transaction.html" class="menu-link active"
+              >➕ Nova transação</a
+            >
+          </div>
+          <a href="../addcartoes/addcartoes.html" class="menu-link"
+            >➕ Novo cartão</a
+          >
+          <a href="../cartoes.html" class="menu-link">✏️ Editar cartão</a>
         </div>
-        <a href="../addcartoes/addcartoes.html" class = menu-link>➕ Novo cartão</a>
-        <a href="../cartoes.html" class = menu-link>✏️ Editar cartão</a>
-      </div>
-    </aside>
+      </aside>
 
-    <main class="content">
-      <h1>Nova Transação</h1>
-      <form id="transaction-form" class="transaction-form">
-        <label for="description">Descrição:</label>
-        <input type="text" id="description" name="description" required />
+      <main class="content">
+        <h1>Nova Transação</h1>
+        <form id="transaction-form" class="transaction-form">
+          <label for="description">Descrição:</label>
+          <input type="text" id="description" name="description" required />
 
-        <label for="category">Categoria:</label>
-        <select id="category" name="category" required>
-          <option value="" disabled selected>Selecione uma categoria</option>
-          <option value="Alimentação">Alimentação</option>
-          <option value="Transporte">Transporte</option>
-          <option value="Educação">Educação</option>
-          <option value="Lazer">Lazer</option>
-          <option value="Investimento">Investimento</option>
-          <option value="Outros">Outros</option>
-        </select>
+          <label for="category">Categoria:</label>
+          <select id="category" name="category" required>
+            <option value="" disabled selected>Selecione uma categoria</option>
+            <option value="Alimentação">Alimentação</option>
+            <option value="Transporte">Transporte</option>
+            <option value="Educação">Educação</option>
+            <option value="Lazer">Lazer</option>
+            <option value="Investimento">Investimento</option>
+            <option value="Outros">Outros</option>
+          </select>
 
-        <label for="type">Tipo:</label>
-        <div class="radio-group">
-          <input type="radio" id="expense" name="type" value="expense" checked />
-          <label for="expense">Despesa</label>
-          <input type="radio" id="investment" name="type" value="investment" />
-          <label for="investment">Investimento</label>
-        </div>
+          <label for="type">Tipo:</label>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="expense"
+              name="type"
+              value="expense"
+              checked
+            />
+            <label for="expense">Despesa</label>
+            <input
+              type="radio"
+              id="investment"
+              name="type"
+              value="investment"
+            />
+            <label for="investment">Investimento</label>
+          </div>
 
-        <label for="date">Data:</label>
-        <input type="date" id="date" name="date" required />
+          <label for="date">Data:</label>
+          <input type="date" id="date" name="date" required />
 
-        <label for="value">Valor (R$):</label>
-        <input type="number" id="value" name="value" step="0.01" min="0" required />
+          <label for="value">Valor (R$):</label>
+          <input
+            type="number"
+            id="value"
+            name="value"
+            step="0.01"
+            min="0"
+            required
+          />
 
-        <button type="submit">💾 Salvar</button>
-      </form>
-    </main>
-  </div>
+          <button type="submit">💾 Salvar</button>
+        </form>
+      </main>
+    </div>
 
-  <script src="add_transaction.js"></script>
-</body>
+    <script src="add_transaction.js"></script>
+  </body>
 </html>
