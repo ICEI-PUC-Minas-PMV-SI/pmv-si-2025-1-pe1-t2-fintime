@@ -10,10 +10,10 @@ body {
   color: #000;
 }
 
-.container {
+/* .container {
   display: flex;
   height: 100vh;
-}
+} */
 
 .logo {
   font-size: 2rem;
@@ -22,13 +22,7 @@ body {
   font-weight: bold;
 }
 
-.menu {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.menu button {
+/* .menu button {
   display: flex;
   align-items: center;
   background: none;
@@ -38,16 +32,16 @@ body {
   cursor: pointer;
   text-align: left;
   width: 100%;
-}
+} */
 
-.menu button:hover {
+/* .menu button:hover {
   background-color: #e0e0e0;
-}
-
+} */
+/* 
 .menu .active {
   color: #4361ff;
   font-weight: bold;
-}
+} */
 /* Dashboard */
 .dashboard {
   background: #4361ff;
