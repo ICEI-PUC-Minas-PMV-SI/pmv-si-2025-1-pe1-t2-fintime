@@ -10,38 +10,11 @@ body {
   color: #000;
 }
 
-/* .container {
+.container {
   display: flex;
   height: 100vh;
-} */
-
-/* .logo {
-  font-size: 2rem;
-  color: #4361ff;
-  margin-bottom: 30px;
-  font-weight: bold;
-} */
-
-/* .menu button {
-  display: flex;
-  align-items: center;
-  background: none;
-  border: none;
-  padding: 10px 15px;
-  font-size: 14px;
-  cursor: pointer;
-  text-align: left;
-  width: 100%;
 }
 
-.menu button:hover {
-  background-color: #e0e0e0;
-}
-
-.menu .active {
-  color: #4361ff;
-  font-weight: bold;
-}
 /* Dashboard */
 .dashboard {
   background: #4361ff;
@@ -51,7 +24,8 @@ body {
   gap: 20px;
   height: 100vh;
 }
-*/ .coluna-esquerda {
+
+.coluna-esquerda {
   display: flex;
   flex-direction: column;
   gap: 10px;
