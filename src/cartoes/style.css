@@ -15,17 +15,6 @@ body {
   height: 100vh;
 }
 
-/* Sidebar */
-.sidebar {
-  background-color: #f4f4f4;
-  width: 220px;
-  height: 100vh;
-  padding: 20px 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .logo {
   font-size: 2rem;
   color: #4361ff;
