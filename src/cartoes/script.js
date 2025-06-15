@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   initChart();
-  initFaturaChart()
+  // initFaturaChart()
   renderCards();
 });
 
@@ -44,43 +44,43 @@ function initChart() {
     }
   });
 }
-function initFaturaChart() {
-  const ctx = document.getElementById("faturaChart").getContext("2d");
-  const cards = JSON.parse(localStorage.getItem("cards")) || [];
+// function initFaturaChart() {
+//   const ctx = document.getElementById("faturaChart").getContext("2d");
+//   const cards = JSON.parse(localStorage.getItem("cards")) || [];
 
-  const labels = cards.map((card) => card.nome || card.bandeira);
-  const valores = cards.map((card) => parseFloat(card.limite));
+//   const labels = cards.map((card) => card.nome || card.bandeira);
+//   const valores = cards.map((card) => parseFloat(card.limite));
 
-  new Chart(ctx, {
-    type: "bar",
-    data: {
-      labels: labels,
-      datasets: [{
-        label: "Valor da Fatura",
-        data: valores,
-        backgroundColor: "#fcae61"
-      }]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: function(context) {
-              return `R$ ${parseFloat(context.raw).toFixed(2)}`;
-            }
-          }
-        }
-      },
-      scales: {
-        y: {
-          beginAtZero: true
-        }
-      }
-    }
-  });
-}
+//   new Chart(ctx, {
+//     type: "bar",
+//     data: {
+//       labels: labels,
+//       datasets: [{
+//         label: "Valor da Fatura",
+//         data: valores,
+//         backgroundColor: "#fcae61"
+//       }]
+//     },
+//     options: {
+//       responsive: true,
+//       plugins: {
+//         legend: { display: false },
+//         tooltip: {
+//           callbacks: {
+//             label: function(context) {
+//               return `R$ ${parseFloat(context.raw).toFixed(2)}`;
+//             }
+//           }
+//         }
+//       },
+//       scales: {
+//         y: {
+//           beginAtZero: true
+//         }
+//       }
+//     }
+//   });
+// }
 
 function adicionarFatura() {
   alert("Funcionalidade de adicionar fatura ainda será implementada.");
