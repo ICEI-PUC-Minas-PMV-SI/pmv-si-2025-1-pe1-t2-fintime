@@ -1,66 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FinTime</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="sidebar.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FinTime | Cartões</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="sidebar.css" />
 </head>
 <body>
-    
   <div class="container">
     <aside class="sidebar">
-        <a href="../../index.html">
-        <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90">
-        </a>
-        <div class="menu">
-          <a href="../../index.html" class="active">🏠 Início</a>
-          <a href="../perfil/index.html"> 👤 Perfil</a>
-          <a href="../transactions/transactions.html">💰 Transações</a>
-          <a href="./cartoes.html">💳 Cartão</a>
-          <a href="../addcartoes/addcartoes.html">➕ Novo cartão</a>
-          <a>✏️ Editar cartão</a>
-          </div>
-        </div>
+      <a href="../../index.html">
+        <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90" />
+      </a>
+      <div class="menu">
+        <a href="../../index.html">🏠 Início</a>
+        <a href="../perfil/index.html">👤 Perfil</a>
+        <a href="../transactions/transactions.html">💰 Transações</a>
+        <a href="./cartoes.html" class="active">💳 Cartões</a>
+        <a href="../addcartoes/addcartoes.html">➕ Novo cartão</a>
+      </div>
     </aside>
 
     <main class="dashboard">
-        <div class="coluna-esquerda">
-          <section class="cards">
-            <h2>Cartões</h2>
-            <div class="card-list">
-              <div class="card-item">
-                <img src="../../docs/img/visa.png" alt="visa" class="bandeira">
-                <p>R$ 5.000,00</p>
-                <button class="remove-card">🗑️</button>
-              </div>
-              <div class="card-item"> 
-                <img src="../../docs/img/mastercard.png" alt="mastercard" class="bandeira">
-                <p>R$ 10.000,00</p>
-                <button class="remove-card">🗑️</button>
-              </div>
-              <button class="add-card">➕ Adicionar um cartão</button>
-            </div>
-          </section>
-      
-          <section class="fatura">
-            <h2>Faturas</h2>
-            <div class="fatura-info">
-              <p><strong>Última paga:</strong> 12/04</p>
-              <p><strong>À pagar:</strong> 12/05</p>
-              <p><strong>Valor:</strong> R$1.000,00</p>
-              <p class="status">Status</p>
-              <p class="atraso">Em Atraso</p>
-            </div>
-          </section>
-        </div>
-      
-        <section class="grafico">
-          <h2>Gastos</h2>
-          <canvas id="gastosChart"></canvas>
+      <div class="coluna-esquerda">
+        <section class="cards">
+          <h2>Cartões</h2>
+          <div class="card-list" id="card-list"></div>
+          <button class="add-card" onclick="location.href='../addcartoes/addcartoes.html'">➕ Adicionar um cartão</button>
         </section>
-      </main>      
+
+        <section class="fatura">
+          <h2>Faturas</h2>
+          <div class="fatura-info">
+            <p><strong>Última paga:</strong> 12/04</p>
+            <p><strong>À pagar:</strong> 12/05</p>
+            <p><strong>Valor:</strong> R$1.000,00</p>
+            <p class="status">Status</p>
+            <p class="atraso">Em Atraso</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="grafico">
+        <h2>Gastos</h2>
+        <canvas id="gastosChart"></canvas>
+      </section>
+    </main>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
