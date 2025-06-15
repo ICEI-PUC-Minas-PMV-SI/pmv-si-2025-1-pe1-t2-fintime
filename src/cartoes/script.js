@@ -145,7 +145,7 @@ function renderCards() {
       <p><strong>À pagar:</strong> ${formatarData(primeiroCartao.vencimento)}</p>
       <p><strong>Valor:</strong> R$ ${parseFloat(primeiroCartao.limite).toFixed(2)}</p>
       <p class="status">Status</p>
-      <p class="${status === 'Em Atraso' ? 'atraso' : ''}">${status}</p>
+      <p class="${status === 'Em Atraso' ? 'atraso' : 'emdia'}">${status}</p>
     `;
   }
 }

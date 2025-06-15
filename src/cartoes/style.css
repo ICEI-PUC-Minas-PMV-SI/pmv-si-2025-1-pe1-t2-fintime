@@ -132,6 +132,10 @@ body {
   color: red;
   font-size: 19px;
 }
+.fatura-info .emdia {
+  color:  green;
+  font-size: 19px;
+}
 
 .fatura-info .status {
   font-size: 19px;
