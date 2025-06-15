@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FinTime | Editar Cartão</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./sidebar.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <a href="../../index.html">
+        <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90" />
+      </a>
+      <div class="menu">
+        <a href="../../index.html">🏠 Início</a>
+        <a href="../perfil/index.html">👤 Perfil</a>
+        <a href="../transactions/transactions.html">💰 Transações</a>
+        <a href="./cartoes.html">💳 Cartões</a>
+        <a href="../addcartoes/addcartoes.html">➕ Novo cartão</a>
+      </div>
+    </aside>
+
+    <main class="dashboard">
+      <div class="card">
+        <h2>Editar Cartão</h2>
+<form id="edit-card-form">
+  <div class="form-row">
+    <div>
+      <label for="bandeira">Bandeira:</label>
+      <select id="bandeira">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="elo">Elo</option>
+      </select>
+    </div>
+    <div>
+      <label for="nomeCartao">Nome:</label>
+      <input type="text" id="nomeCartao" placeholder="ex.: Nubank" required />
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div>
+      <label for="fechamento">Data de Fechamento:</label>
+      <input type="date" id="fechamento" required />
+    </div>
+    <div>
+      <label for="vencimento">Data de Vencimento:</label>
+      <input type="date" id="vencimento" required />
+    </div>
+  </div>
+
+  <div>
+    <label for="limite">Limite (R$):</label>
+    <input type="number" id="limite" required />
+  </div>
+
+  <div class="buttons">
+    <button type="button" class="btn-secondary" onclick="voltar()">Cancelar</button>
+    <button type="submit" class="btn-primary">Salvar</button>
+  </div>
+</form>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const index = localStorage.getItem("editCardIndex");
+    const cards = JSON.parse(localStorage.getItem("cards")) || [];
+
+    if (index !== null && cards[index]) {
+      const card = cards[index];
+      document.getElementById("bandeira").value = card.bandeira;
+      document.getElementById("nomeCartao").value = card.nome;
+      document.getElementById("fechamento").value = card.fechamento;
+      document.getElementById("vencimento").value = card.vencimento;
+      document.getElementById("limite").value = card.limite;
+    } else {
+      alert("Cartão não encontrado.");
+      window.location.href = "../cartoes/cartoes.html";
+    }
+
+    document.getElementById("edit-card-form").addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const bandeira = document.getElementById("bandeira").value;
+      const nome = document.getElementById("nomeCartao").value.trim();
+      const fechamento = document.getElementById("fechamento").value;
+      const vencimento = document.getElementById("vencimento").value;
+      const limite = document.getElementById("limite").value;
+
+      if (!nome || !fechamento || !vencimento || !limite) {
+        alert("Preencha todos os campos.");
+        return;
+      }
+
+      cards[index] = {
+        bandeira,
+        nome,
+        fechamento,
+        vencimento,
+        limite: parseFloat(limite).toFixed(2)
+      };
+
+      localStorage.setItem("cards", JSON.stringify(cards));
+      localStorage.removeItem("editCardIndex");
+      alert("Cartão atualizado com sucesso!");
+      window.location.href = "./cartoes.html";
+    });
+
+    function voltar() {
+      window.location.href = "./cartoes.html";
+    }
+  </script>
+</body>
+</html>

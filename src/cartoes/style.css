@@ -70,6 +70,10 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.grafico button.add-card {
+  margin-top: 15px;
+}
+
 .card-list {
   display: flex;
   flex-direction: column;

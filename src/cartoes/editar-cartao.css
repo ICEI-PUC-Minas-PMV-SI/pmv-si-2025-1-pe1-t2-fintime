@@ -1,0 +1,66 @@
+/* Formulário da tela de editar cartão */
+.dashboard .card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dashboard .card label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  display: block;
+  color: #333;
+}
+
+.dashboard .card input,
+.dashboard .card select {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.dashboard .form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.dashboard .form-row > div {
+  flex: 1;
+}
+
+.dashboard .buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #4361ff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #2f4dcc;
+}
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #cacaca;
+}
