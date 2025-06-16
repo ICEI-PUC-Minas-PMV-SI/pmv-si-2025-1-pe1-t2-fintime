@@ -27,16 +27,59 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| A aplicação deve permitir que o usuário visualize a distribuição dos gastos por categoria através de gráficos | Rodrigo | home.js |
+|RF-002| A aplicação deve permitir que o usuário adicione cartões | Monaliza | addcartoes/script.js |
+|RF-003| A aplicação deve permitir que o usuário visualize e administre cartões de crédito cadastrados localmente, com gráficos e interface de edição/remoção de dados. | Monaliza | cartoes/script.js |
+|RF-004| A aplicação deve receber dados do usuário, validar e salvar as transações | Octávio e Mariana | add_transaction.js |
+|RF-005| A aplicação deve apresentar visualmente a distribuição das despesas por categoria em um gráfico | Octávio e Mariana | doughnut.js |
+|RF-006| A aplicação deve permitir o carregamento e exibição de transações financeiras registradas pelo usuário. | Octávio e Mariana | expenses.json |
+|RF-007| A aplicação deve carregar, exibir e buscar despesas, além de navegar para uma lista completa | Octávio e Mariana | filterExpenses.js |
+|RF-008| A aplicação deve carregar as despesas, mostrá-las em uma tabela, permitir a busca por texto e exportar os dados para um arquivo CSV | Octávio e Mariana | full_list.js |
+|RF-009| A aplicação deve apresentar visualmente os gastos semanais de um determinado mês | Octávio e Mariana | graph.js |
+
+
 
 ## Descrição das estruturas:
 
-## Notícia
+
+
+
+## Cartão
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| bandeira     | String            | Nome da bandeira do cartão       | "Visa"                                              |
+| nome         | String            | Nome fornecido pelo usuário      | "Cartão do Itaú"                                   |
+
+## Gráfico de Limite de Cartões
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| label          | String | Nome do cartão (campo nome ou bandeira) usado na legenda do gráfico       | "Nubank"                                              |
+| data          |  Number       | Distribuição do limite nos meses                       | "1500, 1500..."                                   |
+
+## Transação
+| **Nome**    | **Tipo**         | **Descrição**                             | **Exemplo**              |
+|:-----------:|------------------|-----------------------------------------|--------------------------|
+| description | String           | Descrição da transação                   | "Compra no supermercado"  |
+| category    | String           | Categoria da transação                   | "Alimentação"            |
+| type        | String            | Tipo da transação (ex: receita ou despesa) | "despesa"             |
+| date        | String (ISO)      | Data da transação no formato ISO (YYYY-MM-DD) | "2025-06-16"          |
+| value       | Number (Decimal) | Valor da transação                       | 150.50                   |
+
+## Funções e Variáveis do Filtro de Despesas
+
+| **Nome**    | **Tipo**         | **Descrição**                           | **Exemplo**              |
+|:-----------:|------------------|-----------------------------------------|--------------------------|
+| expenses    | Array            | Armazena as despesas carregadas         | `[ { date: '2023-01-01', description: 'Uber', ... } ]` |
+| currentHighlight | Elemento DOM ou null | Guarda a linha atualmente destacada no filtro   | `null` ou `<tr class="highlight">`    |
+| loadData         | Função             | Carrega dados do arquivo JSON e renderiza tabela| —                                       |
+| renderExpenses   | Função             | Exibe as despesas na tabela, com limite opcional| —                                                    |
+| formatCurrency   | Função             | Formata número para moeda brasileira             | `R$ 100,00`                            |
+| searchExpenses   | Função             | Pesquisa e destaca linha que contém o termo buscado | —                                   |
+| setupViewAllButton | Função           | Configura botão para mostrar todas despesas em outra página | —                           |
+
+
+
+
+
+
 
