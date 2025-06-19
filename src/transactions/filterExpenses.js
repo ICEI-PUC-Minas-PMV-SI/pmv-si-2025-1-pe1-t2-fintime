@@ -108,3 +108,27 @@ function setupViewAllButton() {
         });
     }
 }
+
+// ===================== TEST CODE =====================
+function runUnitTests() {
+  console.log('--- Running Unit Tests ---');
+  let passed = 0;
+  
+  // Test 1: formatCurrency (positive)
+  const positiveTest = formatCurrency(1234.56);
+  if (positiveTest === 'R$ 1234,56') {
+    console.log('✅ Unit Test 1 Passed: Positive currency formatting');
+    passed++;
+  } else {
+    console.error(`❌ Unit Test 1 Failed: Expected 'R$ 1234,56' got '${positiveTest}'`);
+  }
+
+  // Test 2: formatCurrency (negative)
+  const negativeTest = formatCurrency(-789.01);
+  if (negativeTest === '-R$ 789,01') {
+    console.log('✅ Unit Test 2 Passed: Negative currency formatting');
+    passed++;
+  } else {
+    console.error(`❌ Unit Test 2 Failed: Expected '-R$ 789,01' got '${negativeTest}'`);
+  }
+};
