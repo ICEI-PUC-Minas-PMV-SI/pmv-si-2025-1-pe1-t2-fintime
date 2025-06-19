@@ -7,22 +7,25 @@
   <link rel="stylesheet" href="style_fl.css">
   <!-- <script src="filterExpenses.js"></script> -->
   <script src="full_list.js"></script>
+  <link rel="stylesheet" href="sidebar.css">
 </head>
 
 <body>
   <div class="container">
     <aside class="sidebar">
-      <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90" />
+      <a href="../../index.html">
+      <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90">
+      </a>
       <div class="menu">
-        <a href="../home/home.html" class="menu-link">🏠 Início</a>
+        <a href="../../index.html" class="menu-link">🏠 Início</a>
         <a href="../perfil/index.html" class="menu-link">👤 Perfil</a>
-        <button class="menu-toggle menu-link active" onclick="toggleSubmenu()">💰 Transações</button>
+        <a href="./transactions.html" class="menu-link active">
+            💰 Transações</a>
         <div id="submenu" class="submenu">
           <a href="full_list.html" class="menu-link active">📋 Listagem</a>
           <a href="add_transaction.html" class="menu-link">➕ Nova transação</a>
+          <a href="../cartoes/cartoes.html">💳 Cartão</a>
         </div>
-        <a href="../addcartoes/addcartoes.html" class="menu-link">➕ Novo cartão</a>
-        <a href="../cartoes.html" class="menu-link">✏️ Editar cartão</a>
       </div>
     </aside>
   </div>

@@ -8,20 +8,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="home.css">
-  <link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="src/home/home.css">
+  <link rel="stylesheet" href="src/home/sidebar.css">
 </head>
 <body>
   <aside class="sidebar">
     <div>
-      <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90">
+      <a href="./index.html">
+      <img class="logo" src="docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90">
+      </a>
       <div class="menu">
-        <a href="./home.html" class="active">🏠 Início</a>
-        <a>👤 Perfil</a>
-        <a>💰 Transações</a>
-        <a href="../cartoes.html">💳 Cartão</a>
-        <a>➕ Novo cartão</a>
-        <a>✏️ Editar cartão</a>
+        <a href="./index.html" class="active">🏠 Início</a>
+        <a href="./src/perfil/index.html"> 👤 Perfil</a>
+        <a href="./src/transactions/transactions.html">💰 Transações</a>
+        <a href="./src/cartoes/cartoes.html">💳 Cartão</a>
       </div>
     </div>
   </aside>
@@ -71,6 +71,6 @@
       </div>
     </div>
   </section>
-  <script src="./home.js"></script>
+  <script src="src/home/home.js"></script>
 </body>
 </html>

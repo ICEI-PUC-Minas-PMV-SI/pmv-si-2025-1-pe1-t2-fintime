@@ -15,50 +15,6 @@ body {
   height: 100vh;
 }
 
-/* Sidebar */
-.sidebar {
-  background-color: #f4f4f4;
-  width: 220px;
-  height: 100vh;
-  padding: 20px 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.logo {
-  font-size: 2rem;
-  color: #4361ff;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.menu button {
-  display: flex;
-  align-items: center;
-  background: none;
-  border: none;
-  padding: 10px 15px;
-  font-size: 14px;
-  cursor: pointer;
-  text-align: left;
-  width: 100%;
-}
-
-.menu button:hover {
-  background-color: #e0e0e0;
-}
-
-.menu .active {
-  color: #4361ff;
-  font-weight: bold;
-}
 /* Dashboard */
 .dashboard {
   background: #4361ff;
@@ -112,6 +68,10 @@ body {
   border-radius: 16px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grafico button.add-card {
+  margin-top: 15px;
 }
 
 .card-list {
@@ -172,6 +132,10 @@ body {
   color: red;
   font-size: 19px;
 }
+.fatura-info .emdia {
+  color:  green;
+  font-size: 19px;
+}
 
 .fatura-info .status {
   font-size: 19px;
@@ -180,5 +144,5 @@ body {
 /* Gráfico */
 canvas {
   width: 100% !important;
-  height: 250px !important;
+  height: 220px !important;
 }

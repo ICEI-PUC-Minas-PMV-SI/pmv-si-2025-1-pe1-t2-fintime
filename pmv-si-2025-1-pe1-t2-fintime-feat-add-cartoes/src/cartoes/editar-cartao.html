@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editar Cartão | FinTime</title>
+  <link rel="stylesheet" href="./sidebar.css"/>
+  <link rel="stylesheet" href="./editar-cartao.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <a href="../../index.html">
+    <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90" /></a>
+    <nav class="menu">
+        <a href="../../index.html">🏠 Início</a>
+        <a href="../perfil/index.html">👤 Perfil</a>
+        <a href="../transactions/transactions.html">💰 Transações</a>
+        <a href="./cartoes.html" class="active">💳 Cartões</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <div class="card">
+      <div class="icon-card">💳</div>
+      <h2>Editar Cartão</h2>
+      
+      <input type="text" id="nome" placeholder="Nome do cartão" />
+      <input type="number" id="limite" placeholder="Limite (R$)" />
+      <select id="bandeira">
+        <option value="">Selecione a bandeira</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="elo">Elo</option>
+      </select>
+
+      <div class="row">
+        <input type="date" id="fechamento" placeholder="Data de fechamento" />
+        <input type="date" id="vencimento" placeholder="Data de vencimento" />
+      </div>
+
+      <div class="buttons">
+        <button class="btn-secondary" onclick="window.history.back()">Cancelar</button>
+        <button class="btn-primary" onclick="salvarEdicao()">Salvar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="editar-cartao.js"></script>
+</body>
+</html>

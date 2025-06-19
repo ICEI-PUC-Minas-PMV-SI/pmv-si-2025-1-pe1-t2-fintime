@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FinTime | Cartões</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="sidebar.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <a href="../../index.html">
+        <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90" />
+      </a>
+      <div class="menu">
+        <a href="../../index.html">🏠 Início</a>
+        <a href="../perfil/index.html">👤 Perfil</a>
+        <a href="../transactions/transactions.html">💰 Transações</a>
+        <a href="./cartoes.html" class="active">💳 Cartões</a>
+      </div>
+    </aside>
+
+    <main class="dashboard">
+      <div class="coluna-esquerda">
+        <section class="cards">
+          <h2>Cartões </h2>
+          <div class="card-list" id="card-list"></div>
+          <button class="add-card" onclick="location.href='../addcartoes/addcartoes.html'">➕ Adicionar um cartão</button>
+        </section>
+        <section class="fatura">
+          <h2>Faturas</h2>
+          <div class="fatura-info">
+            <canvas id="faturaChart"></canvas>
+            <p><strong>Última paga:</strong></p>
+            <p><strong>À pagar:</strong></p>
+            <p><strong>Valor:</strong></p>
+            <p class="status"></p>
+            <p class="atraso"></p>
+            <p class="emdia"></p>
+          </div>
+            <button class="add-card" onclick="adicionarFatura()">➕ Adicionar fatura</button>
+        </section>
+      </div>
+        <section class="grafico">
+          <h2>Limites</h2>
+          <canvas id="limiteChart"></canvas>
+        </section>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

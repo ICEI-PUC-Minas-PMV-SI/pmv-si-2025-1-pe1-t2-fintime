@@ -13,10 +13,8 @@ body {
 /* Sidebar */
 .sidebar {
   background-color: #f4f4f4;
-  width: 220px;
+  min-width: 220px;
   height: 100vh;
-  padding: 20px 10px;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
