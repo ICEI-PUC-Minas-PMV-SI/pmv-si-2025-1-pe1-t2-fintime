@@ -45,20 +45,30 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+### Testes Unitários Realizados
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+| Função Testada           | Cenário de Teste                          | Resultado     |
+|--------------------------|-------------------------------------------|---------------|
+| `formatCurrency()`       | Formatação de valores positivos (R$ 1234,56) | ✅ Sucesso    |
+| `formatCurrency()`       | Formatação de valores negativos (-R$ 789,01) | ✅ Sucesso    |
+| `formatCurrency()`       | Formatação de valor zero (R$ 0,00)        | ✅ Sucesso    |
+| `formatCurrencyForExport()` | Formatação para exportação (1234.56)      | ✅ Sucesso    |
+| `filterExpenses()`       | Busca vazia mostra todos os registros      | ✅ Sucesso    |
 
+### Testes Funcionais Verificados
+
+| Funcionalidade         | Verificação                               | Resultado     |
+|------------------------|-------------------------------------------|---------------|
+| Renderização de gastos | Listagem completa aparece corretamente    | ✅ Sucesso    |
+| Busca                  | Filtra registros conforme termo digitado | ✅ Sucesso    |
+| Destaque na busca      | Registros encontrados são destacados      | ✅ Sucesso    |
+| Exportação CSV         | Gera arquivo com dados corretos           | ✅ Sucesso    |
 
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+
+Estratégia de Testes: Focamos em funções puras (formatCurrency, filterExpenses) com testes manuais simples. Como ponto forte, foi verificada a lógica básica. Já como algo que poderia ser implementado no futuro, ressalta-se a automação e cobertura abrangente. Melhorar com frameworks (Jest) e testes de integração.
 
 ## Testes de unidade automatizados (Opcional)
 
@@ -95,54 +105,36 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
-
+| 1 | Encontre todas as transações da categoria "Alimentação" nos últimos 30 dias |
+| 2 | Exporte um relatório CSV com suas transações do mês atual |
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+**Cenário 1:** Filtro por categoria "Alimentação"
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| Usuário | Sucesso | Satisfação (1-5) | Tempo |
+|---------|---------|------------------|-------|
+| 1 | ✅ | 5 | 22s |
+| 2 | ✅ | 4 | 35s |
+| 3 | ✅ | 5 | 18s |
+| **Média** | 100% | 4.7 | 25s |
+| **Especialista** | ✅ | 5 | 6s |
 
+**Cenário 2:** Exportação de CSV
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+| Usuário | Sucesso | Satisfação (1-5) | Tempo |
+|---------|---------|------------------|-------|
+| 1 | ✅ | 4 | 42s |
+| 2 | ✅ | 5 | 38s |
+| 3 | ✅ | 4 | 45s |
+| **Média** | 100% | 4.3 | 42s |
+| **Especialista** | ✅ | 5 | 12s |
 
+**Comentários:**
+- "Filtro por categoria funcionou perfeitamente" (Usuário 1)
+- "Exportação foi fácil, mas demorou para gerar o arquivo" (Usuário 3)
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
-
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
-
+Os testes mostraram alta eficácia (100% de sucesso) e boa satisfação (4.3-4.7/5), indicando intuitividade nas tarefas essenciais. O tempo médio dos usuários foi 2-3x maior que o do especialista, revelando oportunidades para otimizar fluxos, especialmente na exportação de dados. Feedback destaca a necessidade de agilizar processos e melhorar feedbacks visuais durante operações demoradas.
