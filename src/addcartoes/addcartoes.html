@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FinTime</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="sidebar.css" />
-  </head>
-
-  <body>
-    <div class="sidebar">
-      <a href="../../index.html"
-        ><img
-          class="logo"
-          src="../../docs/img/fintime-logo.png"
-          alt="FinTime Logo"
-          width="110"
-          height="90"
-      /></a>
-      <div class="menu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adicionar Cartão | FinTime</title>
+  <link rel="stylesheet" href="./sidebar.css"/>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <a href="../../index.html">
+    <img class="logo" src="../../docs/img/fintime-logo.png" alt="FinTime Logo" width="110" height="90" /></a>
+    <nav class="menu">
         <a href="../../index.html">🏠 Início</a>
-        <a href="../../src/perfil/index.html"><button>👤 Perfil</button></a>
-        <a href="../../src/transactions/transactions.html"
-          ><button>💰 Transações</button></a
-        >
-        <a href="../../src/cartoes/cartoes.html"
-          ><button class="active">💳 Cartão</button></a
-        >
+        <a href="../perfil/index.html">👤 Perfil</a>
+        <a href="../transactions/transactions.html">💰 Transações</a>
+        <a href="../cartoes/cartoes.html" class="active">💳 Cartões</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <div class="card">
+      <div class="icon-card">💳</div>
+      <h2>Adicionar Cartão</h2>
+
+      <label for="nome">Nome do cartão</label>
+      <input type="text" id="nome" placeholder="Digite o nome do cartão" />
+
+      <label for="limite">Limite (R$)</label>
+      <input type="number" id="limite" placeholder="Informe o limite disponível" />
+
+      <label for="bandeira">Bandeira do cartão</label>
+      <select id="bandeira">
+        <option value="">Selecione a bandeira</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="elo">Elo</option>
+      </select>
+
+      <div class="row">
+        <div class="input-group">
+          <label for="fechamento">Data de fechamento</label>
+          <input type="date" id="fechamento" placeholder="Data de fechamento" />
+        </div>
+
+        <div class="input-group">
+          <label for="vencimento">Data de vencimento</label>
+          <input type="date" id="vencimento" placeholder="Data de vencimento" />
+        </div>
+      </div>
+
+
+      <div class="buttons">
+        <button class="btn-secondary" onclick="window.history.back()">Cancelar</button>
+        <button class="btn-primary" onclick="cadastrarCartao()">Salvar</button>
       </div>
     </div>
+  </main>
 
-    <div class="main">
-      <div class="card">
-        <h2>Adicionar Cartão</h2>
-        <div class="icon-card">💳</div>
-        <select>
-          <option value="visa">Visa</option>
-          <option value="mastercard">Mastercard</option>
-          <option value="elo">Elo</option>
-        </select>
-        <input
-          type="text"
-          placeholder="ex.: Nubank, XP, Santander, Itaú."
-          id="nomeCartao"
-        />
-        <div class="row">
-          <input type="date" placeholder="Fechamento (00/00)" id="fechamento" />
-          <input type="date" placeholder="Vencimento (00/00)" id="vencimento" />
-        </div>
-        <input type="number" placeholder="R$ 0,00" id="limiteCredito" />
-        <div class="buttons">
-          <button class="btn-secondary" onclick="voltar()">Voltar</button>
-          <button class="btn-primary" onclick="cadastrarCartao()">
-            Cadastrar
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
+  <script src="./script.js"></script>
+</body>
 </html>

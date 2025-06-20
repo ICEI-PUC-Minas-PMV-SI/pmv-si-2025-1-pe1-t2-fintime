@@ -1,9 +1,9 @@
 function cadastrarCartao() {
   const bandeira = document.querySelector("select").value;
-  const nome = document.getElementById("nomeCartao").value.trim();
+  const nome = document.getElementById("nome").value.trim();
   const fechamento = document.getElementById("fechamento").value;
   const vencimento = document.getElementById("vencimento").value;
-  const limite = document.getElementById("limiteCredito").value;
+  const limite = document.getElementById("limite").value;
 
   if (!nome || !fechamento || !vencimento || !limite) {
     alert("Preencha todos os campos.");
