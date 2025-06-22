@@ -22,11 +22,13 @@ body{
 
 .sidebar{
     background-color: #f4f4f4;
+    position:fixed;
+    top:0;
+    left:0;
+    min-width: 200px;
+    max-width: 25%;
     width: 220px;
-    height: 100vh;
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: column;      
+    height: 100%;
 }
 
 .menu{
@@ -61,10 +63,9 @@ body{
 
 main{
     background-color: #4361ff;
-    position: relative;
-    left: 220px;
-    bottom: 100vh;
-    height: 100vh;
+    min-height: 100%;
+    margin-left: 220px; 
+    padding: 20px; 
 }
 
 .seleft{  /* Classe criada para auxiliar apenas no posicionamento da coleção dos selos e da foto de perfil */
