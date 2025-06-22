@@ -36,7 +36,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| A aplicação deve carregar, exibir e buscar despesas, além de navegar para uma lista completa | Octávio e Mariana | filterExpenses.js |
 |RF-008| A aplicação deve carregar as despesas, mostrá-las em uma tabela, permitir a busca por texto e exportar os dados para um arquivo CSV | Octávio e Mariana | full_list.js |
 |RF-009| A aplicação deve apresentar visualmente os gastos semanais de um determinado mês | Octávio e Mariana | graph.js |
-
+|RF-010| A aplicação deve permitir que o usuário coloque seus dados pessoais em uma página de perfil | Laura | perfil/index.html |
 
 ## Descrição das estruturas:
 
